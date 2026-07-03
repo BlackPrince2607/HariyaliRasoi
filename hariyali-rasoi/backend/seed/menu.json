@@ -79,6 +79,18 @@
       "name": "Beverages",
       "slug": "beverages",
       "display_order": 16
+    },
+    {
+      "name": "Sweets",
+      "slug": "sweets",
+      "display_order": 17,
+      "is_active": true
+    },
+    {
+      "name": "Chinese",
+      "slug": "chinese",
+      "display_order": 18,
+      "is_active": true
     }
   ],
   "items": [
@@ -87,7 +99,7 @@
       "slug": "club-kachori-with-aloo-sabzi-bhujiya-6-pcs",
       "category_slug": "breakfast",
       "description": "Homestyle Club Kachori with Aloo Sabzi & Bhujiya (6 pcs) from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹80.",
-      "price": 80.0,
+      "price": 110,
       "tags": [
         "aloo",
         "bhujiya",
@@ -110,14 +122,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/241c245458ea99edfdfc45d411a2e217"
     },
     {
       "name": "Sattu Stuffed Kachori with Aloo Sabzi (4 pcs)",
       "slug": "sattu-stuffed-kachori-with-aloo-sabzi-4-pcs",
       "category_slug": "breakfast",
       "description": "Homestyle Sattu Stuffed Kachori with Aloo Sabzi (4 pcs) from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹110.",
-      "price": 110.0,
+      "price": 130,
       "tags": [
         "aloo",
         "breakfast",
@@ -140,14 +153,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/fbc86333c11b037f6ede8e835ed715f0"
     },
     {
       "name": "Matar Kachori with Aloo Sabzi (4 pcs)",
       "slug": "matar-kachori-with-aloo-sabzi-4-pcs",
       "category_slug": "breakfast",
       "description": "Homestyle Matar Kachori with Aloo Sabzi (4 pcs) from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹130.",
-      "price": 130.0,
+      "price": 130,
       "tags": [
         "aloo",
         "breakfast",
@@ -176,7 +190,7 @@
       "slug": "atta-ajwain-kachori-with-aloo-sabzi-5-pcs",
       "category_slug": "breakfast",
       "description": "Homestyle Atta Ajwain Kachori with Aloo Sabzi (5 pcs) from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹130.",
-      "price": 130.0,
+      "price": 130,
       "tags": [
         "ajwain",
         "aloo",
@@ -206,7 +220,7 @@
       "slug": "kanak-poha-with-chutney",
       "category_slug": "breakfast",
       "description": "Homestyle Kanak Poha with Chutney from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹110.",
-      "price": 110.0,
+      "price": 110,
       "tags": [
         "breakfast",
         "chutney",
@@ -232,8 +246,8 @@
       "name": "Upma with Sambar & Chutney",
       "slug": "upma-with-sambar-chutney",
       "category_slug": "breakfast",
-      "description": "Homestyle Upma with Sambar & Chutney from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹130.",
-      "price": 130.0,
+      "description": "Upma is popular south indian breakfast made with semolina flour(Suji),fresh veggies spices and hebrs,very healthy and deliciously satisfying taste.",
+      "price": 160,
       "tags": [
         "breakfast",
         "chutney",
@@ -254,14 +268,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 6
+      "display_order": 6,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/fb20629e793606bda4c35b7814bfcdeb"
     },
     {
       "name": "Idli with Sambar & Chutney (2 pcs)",
       "slug": "idli-with-sambar-chutney-2-pcs",
       "category_slug": "breakfast",
-      "description": "Homestyle Idli with Sambar & Chutney (2 pcs) from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹80.",
-      "price": 80.0,
+      "description": "Idli Or Idly is savoury rice cake,the cakes are made by steaming a batter consisting of  Fermented black lentils and rice, served With Sambhar & Chutni",
+      "price": 85,
       "tags": [
         "breakfast",
         "chutney",
@@ -282,14 +297,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 7
+      "display_order": 7,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/33933d397effb66b4a974264b312cf1c"
     },
     {
       "name": "Mini Rawa Idli with Sambar & Chutney",
       "slug": "mini-rawa-idli-with-sambar-chutney",
       "category_slug": "breakfast",
       "description": "Homestyle Mini Rawa Idli with Sambar & Chutney from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹130.",
-      "price": 130.0,
+      "price": 130,
       "tags": [
         "breakfast",
         "chutney",
@@ -318,7 +334,7 @@
       "slug": "plain-dosa-with-sambar-chutney",
       "category_slug": "breakfast",
       "description": "Homestyle Plain Dosa with Sambar & Chutney from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹80.",
-      "price": 80.0,
+      "price": 80,
       "tags": [
         "breakfast",
         "chutney",
@@ -346,7 +362,7 @@
       "slug": "masala-dosa-with-sambar-chutney",
       "category_slug": "breakfast",
       "description": "Homestyle Masala Dosa with Sambar & Chutney from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "price": 120,
       "tags": [
         "breakfast",
         "chutney",
@@ -373,8 +389,8 @@
       "name": "Onion Dosa",
       "slug": "onion-dosa",
       "category_slug": "breakfast",
-      "description": "Homestyle Onion Dosa from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹110.",
-      "price": 110.0,
+      "description": "Medium Dosa With Choped Onion & Fresh Amul Cheese, Delicious Low Fat Crispy Dosa Made of Finely Chop Onion With Coriander Leaves,Green chillis and Grated Cheese, Served With Coconut Chutni & Mouth Watering Sambhar",
+      "price": 140,
       "tags": [
         "breakfast",
         "dosa",
@@ -392,14 +408,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 11
+      "display_order": 11,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/88e209fb5362d89f2d3c86da56c0cd2d"
     },
     {
       "name": "Onion Cheese Dosa",
       "slug": "onion-cheese-dosa",
       "category_slug": "breakfast",
       "description": "Homestyle Onion Cheese Dosa from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹135.",
-      "price": 135.0,
+      "price": 135,
       "tags": [
         "breakfast",
         "cheese",
@@ -425,7 +442,7 @@
       "slug": "masala-cheese-sandwich-dosa",
       "category_slug": "breakfast",
       "description": "Homestyle Masala Cheese Sandwich Dosa from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹155.",
-      "price": 155.0,
+      "price": 155,
       "tags": [
         "breakfast",
         "cheese",
@@ -451,8 +468,8 @@
       "name": "Onion Uttapam",
       "slug": "onion-uttapam",
       "category_slug": "breakfast",
-      "description": "Homestyle Onion Uttapam from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "description": "Uttapam (Aka Uttappa or OOthapam) is yet Another Healthy South Indian Cuisine Prepared With Common Rice & Urad Dal and topped with different veggies which makes it even more Healthier and tasty served with sambhar & chutni",
+      "price": 150,
       "tags": [
         "breakfast",
         "dosa",
@@ -471,14 +488,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 14
+      "display_order": 14,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c9f18fba63f91d41d4794ccda9817807"
     },
     {
       "name": "Mixed Uttapam",
       "slug": "mixed-uttapam",
       "category_slug": "breakfast",
       "description": "Homestyle Mixed Uttapam from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹130.",
-      "price": 130.0,
+      "price": 130,
       "tags": [
         "breakfast",
         "dosa",
@@ -504,7 +522,7 @@
       "slug": "onion-cheese-uttapam",
       "category_slug": "breakfast",
       "description": "Homestyle Onion Cheese Uttapam from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹150.",
-      "price": 150.0,
+      "price": 150,
       "tags": [
         "breakfast",
         "cheese",
@@ -531,7 +549,7 @@
       "slug": "mixed-cheese-uttapam",
       "category_slug": "breakfast",
       "description": "Homestyle Mixed Cheese Uttapam from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹160.",
-      "price": 160.0,
+      "price": 160,
       "tags": [
         "breakfast",
         "cheese",
@@ -557,8 +575,8 @@
       "name": "Appam with Chutney (8 pcs)",
       "slug": "appam-with-chutney-8-pcs",
       "category_slug": "breakfast",
-      "description": "Homestyle Appam with Chutney (8 pcs) from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹100.",
-      "price": 100.0,
+      "description": "Appam Is Type Of pancake originating from south india,we severd it here in a shape of Golf Ball made with fermented suji & Veggies, very delicious served with fresh green coriander & Ginger Chutni.",
+      "price": 145,
       "tags": [
         "appam",
         "breakfast",
@@ -579,14 +597,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 18
+      "display_order": 18,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/2f8ba3e8d29f685621eb7fd788f0de44"
     },
     {
       "name": "Cheese Appam (8 pcs)",
       "slug": "cheese-appam-8-pcs",
       "category_slug": "breakfast",
-      "description": "Homestyle Cheese Appam (8 pcs) from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹130.",
-      "price": 130.0,
+      "description": "Appam Is Type Of Pancake,Made With Fermented Suji,when it Filled With Cheese & Corn it adds a very unique flavour to your taste buds, we served it with Fresh Green Coriandar & Ginger chutni.",
+      "price": 165,
       "tags": [
         "appam",
         "breakfast",
@@ -606,14 +625,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 19
+      "display_order": 19,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/b7a80797d391be0a528d22927173b4d0"
     },
     {
       "name": "Sabudana Vada with Chutney (6 pcs)",
       "slug": "sabudana-vada-with-chutney-6-pcs",
       "category_slug": "breakfast",
       "description": "Homestyle Sabudana Vada with Chutney (6 pcs) from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹130.",
-      "price": 130.0,
+      "price": 175,
       "tags": [
         "breakfast",
         "chutney",
@@ -635,14 +655,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 20
+      "display_order": 20,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/169a13266ca73cf151038be5d09c4783"
     },
     {
       "name": "Moong Dal Chilla with Chutney (2 pcs)",
       "slug": "moong-dal-chilla-with-chutney-2-pcs",
       "category_slug": "breakfast",
-      "description": "Homestyle Moong Dal Chilla with Chutney (2 pcs) from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "description": "Stuffing paneer into the moong dal paneer chilla makes them more filling, and also adds to the protein and calcium content.",
+      "price": 215,
       "tags": [
         "breakfast",
         "chilla",
@@ -665,14 +686,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 21
+      "display_order": 21,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/ea1d4f40dcbf25ce014ca83bce8e3d5c"
     },
     {
       "name": "Masala Cheese Dosa",
       "slug": "masala-cheese-dosa",
       "category_slug": "breakfast",
-      "description": "Homestyle Masala Cheese Dosa from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹145.",
-      "price": 145.0,
+      "description": "Medium In Size But Great In Taste,Crispy Aloo Masala Dosa Made of Finely Chop Onion With Coriander Leaves,Green chillis, Served With Coconut Chutni & Mouth Watering Sambhar",
+      "price": 140,
       "tags": [
         "breakfast",
         "cheese",
@@ -691,14 +713,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 22
+      "display_order": 22,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0ced06b7276d9303882059c385e0c272"
     },
     {
       "name": "Paneer Stuffed Moong Dal Chilla (2 pcs)",
       "slug": "paneer-stuffed-moong-dal-chilla-2-pcs",
       "category_slug": "breakfast",
       "description": "Homestyle Paneer Stuffed Moong Dal Chilla (2 pcs) from Hariyali Rasoi's Breakfast selection. Freshly prepared vegetarian fare, served with care. ₹200.",
-      "price": 200.0,
+      "price": 200,
       "tags": [
         "breakfast",
         "chilla",
@@ -727,8 +750,8 @@
       "name": "Dahi Puchka Chaat",
       "slug": "dahi-puchka-chaat",
       "category_slug": "evening-snacks-chaat",
-      "description": "Homestyle Dahi Puchka Chaat from Hariyali Rasoi's Evening Snacks & Chaat selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "description": "A sweet and spicy, yogurt based chaat recipe,made by stuffing crispy puffed puris with boiled potatoes and topping it with a combination of sweet, sour and spicy chutneys, onion, sev and beaten curd (dahi) giving it a perfectly balanced tongue tickling taste.",
+      "price": 85,
       "tags": [
         "chaat",
         "dahi",
@@ -744,14 +767,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/3ee5eb334f99f9d6ade1e790db364ac0"
     },
     {
       "name": "Papdi Chaat",
       "slug": "papdi-chaat",
       "category_slug": "evening-snacks-chaat",
       "description": "Homestyle Papdi Chaat from Hariyali Rasoi's Evening Snacks & Chaat selection. Freshly prepared vegetarian fare, served with care. ₹100.",
-      "price": 100.0,
+      "price": 100,
       "tags": [
         "chaat",
         "evening",
@@ -773,7 +797,7 @@
       "slug": "corn-chaat",
       "category_slug": "evening-snacks-chaat",
       "description": "Homestyle Corn Chaat from Hariyali Rasoi's Evening Snacks & Chaat selection. Freshly prepared vegetarian fare, served with care. ₹100.",
-      "price": 100.0,
+      "price": 100,
       "tags": [
         "chaat",
         "corn",
@@ -795,7 +819,7 @@
       "slug": "aloo-chaat",
       "category_slug": "evening-snacks-chaat",
       "description": "Homestyle Aloo Chaat from Hariyali Rasoi's Evening Snacks & Chaat selection. Freshly prepared vegetarian fare, served with care. ₹100.",
-      "price": 100.0,
+      "price": 100,
       "tags": [
         "aloo",
         "chaat",
@@ -817,7 +841,7 @@
       "slug": "peanut-masala",
       "category_slug": "evening-snacks-chaat",
       "description": "Homestyle Peanut Masala from Hariyali Rasoi's Evening Snacks & Chaat selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "price": 140,
       "tags": [
         "chaat",
         "evening",
@@ -833,14 +857,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/eb3b0259cd52abba115564593a8f933d"
     },
     {
       "name": "Onion Pakoda with Chutney (6 pcs)",
       "slug": "onion-pakoda-with-chutney-6-pcs",
       "category_slug": "pakoda-fried",
-      "description": "Homestyle Onion Pakoda with Chutney (6 pcs) from Hariyali Rasoi's Pakoda & Fried selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "description": "Onion Pakora, these super addictive and delicious tea time Snack bites are made with gram flour, spices, herbs and loads of onions .",
+      "price": 130,
       "tags": [
         "bhajiya",
         "chutney",
@@ -859,14 +884,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/ecdb672388237a31c2fe4a3cc5f322da"
     },
     {
       "name": "Moong Dal Bhajiya",
       "slug": "moong-dal-bhajiya",
       "category_slug": "pakoda-fried",
       "description": "Homestyle Moong Dal Bhajiya from Hariyali Rasoi's Pakoda & Fried selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "price": 120,
       "tags": [
         "bhajiya",
         "dal",
@@ -890,7 +916,7 @@
       "slug": "mix-veg-pakoda",
       "category_slug": "pakoda-fried",
       "description": "Homestyle Mix Veg Pakoda from Hariyali Rasoi's Pakoda & Fried selection. Freshly prepared vegetarian fare, served with care. ₹140.",
-      "price": 140.0,
+      "price": 170,
       "tags": [
         "bhajiya",
         "fried",
@@ -907,14 +933,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/8eef14b0bc1f7eadc4e05d544e644b0d"
     },
     {
       "name": "Paneer Pakoda",
       "slug": "paneer-pakoda",
       "category_slug": "pakoda-fried",
       "description": "Homestyle Paneer Pakoda from Hariyali Rasoi's Pakoda & Fried selection. Freshly prepared vegetarian fare, served with care. ₹170.",
-      "price": 170.0,
+      "price": 190,
       "tags": [
         "bhajiya",
         "fried",
@@ -930,14 +957,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/d34b904b598d40396563c34c1d6f1d4e"
     },
     {
       "name": "Pav Bhaji with 2 Pavs",
       "slug": "pav-bhaji-with-2-pavs",
       "category_slug": "street-food",
       "description": "Homestyle Pav Bhaji with 2 Pavs from Hariyali Rasoi's Street Food selection. Freshly prepared vegetarian fare, served with care. ₹140.",
-      "price": 140.0,
+      "price": 170,
       "tags": [
         "bhaji",
         "chole bhature",
@@ -956,14 +984,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/4bf0789b3e77b1bf081626a4dc1661d9"
     },
     {
       "name": "Extra Pav (2 pcs)",
       "slug": "extra-pav-2-pcs",
       "category_slug": "street-food",
       "description": "Homestyle Extra Pav (2 pcs) from Hariyali Rasoi's Street Food selection. Freshly prepared vegetarian fare, served with care. ₹30.",
-      "price": 30.0,
+      "price": 35,
       "tags": [
         "chole bhature",
         "extra",
@@ -981,14 +1010,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/fc1c08f83f2a433aebce5b30f86a3763"
     },
     {
       "name": "Vada Pav (2 pcs)",
       "slug": "vada-pav-2-pcs",
       "category_slug": "street-food",
       "description": "Homestyle Vada Pav (2 pcs) from Hariyali Rasoi's Street Food selection. Freshly prepared vegetarian fare, served with care. ₹130.",
-      "price": 130.0,
+      "price": 130,
       "tags": [
         "chole bhature",
         "kulcha",
@@ -1006,14 +1036,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/cec43a2f358de4ded75fcac25119e775"
     },
     {
       "name": "Cheese Vada Pav (2 pcs)",
       "slug": "cheese-vada-pav-2-pcs",
       "category_slug": "street-food",
       "description": "Homestyle Cheese Vada Pav (2 pcs) from Hariyali Rasoi's Street Food selection. Freshly prepared vegetarian fare, served with care. ₹160.",
-      "price": 160.0,
+      "price": 180,
       "tags": [
         "cheese",
         "chole bhature",
@@ -1039,7 +1070,7 @@
       "slug": "extra-cheese-vada-pav-2-pcs",
       "category_slug": "street-food",
       "description": "Homestyle Extra Cheese Vada Pav (2 pcs) from Hariyali Rasoi's Street Food selection. Freshly prepared vegetarian fare, served with care. ₹160.",
-      "price": 160.0,
+      "price": 160,
       "tags": [
         "cheese",
         "chole bhature",
@@ -1066,7 +1097,7 @@
       "slug": "chole-bhature-2-pcs",
       "category_slug": "street-food",
       "description": "Homestyle Chole Bhature (2 pcs) from Hariyali Rasoi's Street Food selection. Freshly prepared vegetarian fare, served with care. ₹170.",
-      "price": 170.0,
+      "price": 185,
       "tags": [
         "bhature",
         "chole",
@@ -1084,14 +1115,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 6
+      "display_order": 6,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/4a23fc53-2ff0-4072-aea1-6cd404a69b5f_36d6db3d-043b-4c03-a87d-bfdd10854062.jpg"
     },
     {
       "name": "Extra Bhatura",
       "slug": "extra-bhatura",
       "category_slug": "street-food",
       "description": "Homestyle Extra Bhatura from Hariyali Rasoi's Street Food selection. Freshly prepared vegetarian fare, served with care. ₹35.",
-      "price": 35.0,
+      "price": 35,
       "tags": [
         "bhatura",
         "chole bhature",
@@ -1115,7 +1147,7 @@
       "slug": "chola-kulcha-2-pcs",
       "category_slug": "street-food",
       "description": "Homestyle Chola Kulcha (2 pcs) from Hariyali Rasoi's Street Food selection. Freshly prepared vegetarian fare, served with care. ₹190.",
-      "price": 190.0,
+      "price": 190,
       "tags": [
         "chola",
         "chole bhature",
@@ -1139,7 +1171,7 @@
       "slug": "dhokla-6-pcs",
       "category_slug": "street-food",
       "description": "Homestyle Dhokla (6 pcs) from Hariyali Rasoi's Street Food selection. Freshly prepared vegetarian fare, served with care. ₹100.",
-      "price": 100.0,
+      "price": 180,
       "tags": [
         "chole bhature",
         "dhokla",
@@ -1156,14 +1188,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 9
+      "display_order": 9,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/cdb6d2555dd337cac057feda7901292b"
     },
     {
       "name": "Dahi Cada (4 pcs)",
       "slug": "dahi-cada-4-pcs",
       "category_slug": "street-food",
       "description": "Homestyle Dahi Cada (4 pcs) from Hariyali Rasoi's Street Food selection. Freshly prepared vegetarian fare, served with care. ₹140.",
-      "price": 140.0,
+      "price": 140,
       "tags": [
         "cada",
         "chole bhature",
@@ -1188,7 +1221,7 @@
       "slug": "vegetable-cheese-sandwich-2-pcs",
       "category_slug": "sandwich-rolls",
       "description": "Homestyle Vegetable Cheese Sandwich (2 pcs) from Hariyali Rasoi's Sandwich & Rolls selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "price": 180,
       "tags": [
         "bread",
         "cheese",
@@ -1205,14 +1238,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/9507b6ed8049d11ee515c7b895815c46"
     },
     {
       "name": "Vegetable Corn Sandwich (2 pcs)",
       "slug": "vegetable-corn-sandwich-2-pcs",
       "category_slug": "sandwich-rolls",
       "description": "Homestyle Vegetable Corn Sandwich (2 pcs) from Hariyali Rasoi's Sandwich & Rolls selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "price": 150,
       "tags": [
         "bread",
         "corn",
@@ -1229,14 +1263,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/7f8245c36b6b764f056d9caedbc8663c"
     },
     {
       "name": "Onion Chilli Garlic Cheese Mushroom Sandwich",
       "slug": "onion-chilli-garlic-cheese-mushroom-sandwich",
       "category_slug": "sandwich-rolls",
       "description": "Homestyle Onion Chilli Garlic Cheese Mushroom Sandwich from Hariyali Rasoi's Sandwich & Rolls selection. Freshly prepared vegetarian fare, served with care. ₹140.",
-      "price": 140.0,
+      "price": 140,
       "tags": [
         "bread",
         "cheese",
@@ -1261,8 +1296,8 @@
       "name": "Vegetable Maggie Sandwich",
       "slug": "vegetable-maggie-sandwich",
       "category_slug": "sandwich-rolls",
-      "description": "Homestyle Vegetable Maggie Sandwich from Hariyali Rasoi's Sandwich & Rolls selection. Freshly prepared vegetarian fare, served with care. ₹170.",
-      "price": 170.0,
+      "description": "Cheese veggitable maggi, Celebration of childhood once again with healthy vegitables",
+      "price": 105,
       "tags": [
         "bread",
         "maggie",
@@ -1278,14 +1313,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/f7075aa48b14c052797c874f33ed833d"
     },
     {
       "name": "Bombay Masala Sandwich",
       "slug": "bombay-masala-sandwich",
       "category_slug": "sandwich-rolls",
-      "description": "Homestyle Bombay Masala Sandwich from Hariyali Rasoi's Sandwich & Rolls selection. Freshly prepared vegetarian fare, served with care. ₹160.",
-      "price": 160.0,
+      "description": "Masala Sandwich is a yummy street snack of crispy toasted sandwiches spiced with chutney, stuffed with a delicious savory mashed potato stuffing and topped with a few crunchy veggies and then grilled or toasted",
+      "price": 150,
       "tags": [
         "bombay",
         "bread",
@@ -1301,14 +1337,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/48a2dce93febf1253d1af5f1f3121835"
     },
     {
       "name": "Bread Roll (4 pcs)",
       "slug": "bread-roll-4-pcs",
       "category_slug": "sandwich-rolls",
       "description": "Homestyle Bread Roll (4 pcs) from Hariyali Rasoi's Sandwich & Rolls selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "price": 120,
       "tags": [
         "bread",
         "pcs",
@@ -1331,7 +1368,7 @@
       "slug": "bread-cheese-roll-4-pcs",
       "category_slug": "sandwich-rolls",
       "description": "Homestyle Bread Cheese Roll (4 pcs) from Hariyali Rasoi's Sandwich & Rolls selection. Freshly prepared vegetarian fare, served with care. ₹160.",
-      "price": 160.0,
+      "price": 160,
       "tags": [
         "bread",
         "cheese",
@@ -1355,7 +1392,7 @@
       "slug": "plain-rice",
       "category_slug": "rice",
       "description": "Homestyle Plain Rice from Hariyali Rasoi's Rice selection. Freshly prepared vegetarian fare, served with care. ₹80.",
-      "price": 80.0,
+      "price": 250,
       "tags": [
         "jeera rice",
         "main course",
@@ -1370,14 +1407,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/2521255c-5811-482d-bda8-c7c442dc74c3_307900c6-81f4-4f4c-b089-993fb5175759.jpg"
     },
     {
       "name": "Veg Pulao",
       "slug": "veg-pulao",
       "category_slug": "rice",
       "description": "Homestyle Veg Pulao from Hariyali Rasoi's Rice selection. Freshly prepared vegetarian fare, served with care. ₹170.",
-      "price": 170.0,
+      "price": 195,
       "tags": [
         "jeera rice",
         "main course",
@@ -1392,14 +1430,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/553b9036795b22877d777f7720b08068"
     },
     {
       "name": "Jeera Rice",
       "slug": "jeera-rice",
       "category_slug": "rice",
       "description": "Homestyle Jeera Rice from Hariyali Rasoi's Rice selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "price": 240,
       "tags": [
         "jeera",
         "jeera rice",
@@ -1414,14 +1453,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/56893e9ec0cf90a3a20dbed2a25d5a16"
     },
     {
       "name": "Peas Pulao",
       "slug": "peas-pulao",
       "category_slug": "rice",
       "description": "Homestyle Peas Pulao from Hariyali Rasoi's Rice selection. Freshly prepared vegetarian fare, served with care. ₹140.",
-      "price": 140.0,
+      "price": 225,
       "tags": [
         "jeera rice",
         "main course",
@@ -1436,14 +1476,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/a61685d0bd33cb0b5a4321e153b03f71"
     },
     {
       "name": "Dal Tadka",
       "slug": "dal-tadka",
       "category_slug": "dal-kadhi",
       "description": "Homestyle Dal Tadka from Hariyali Rasoi's Dal & Kadhi selection. Freshly prepared vegetarian fare, served with care. ₹150.",
-      "price": 150.0,
+      "price": 210,
       "tags": [
         "comfort food",
         "dal",
@@ -1458,14 +1499,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/40f47901902b7c84fd10238cb1aec307"
     },
     {
       "name": "Dal Makhani",
       "slug": "dal-makhani",
       "category_slug": "dal-kadhi",
       "description": "Homestyle Dal Makhani from Hariyali Rasoi's Dal & Kadhi selection. Freshly prepared vegetarian fare, served with care. ₹170.",
-      "price": 170.0,
+      "price": 220,
       "tags": [
         "comfort food",
         "dal",
@@ -1480,14 +1522,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0eb8b2c0a7ed9dd68dbbf47dabc81e9e"
     },
     {
       "name": "Plain Kadhi",
       "slug": "plain-kadhi",
       "category_slug": "dal-kadhi",
       "description": "Homestyle Plain Kadhi from Hariyali Rasoi's Dal & Kadhi selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "price": 120,
       "tags": [
         "comfort food",
         "dal",
@@ -1509,7 +1552,7 @@
       "slug": "pyaz-kadhi",
       "category_slug": "dal-kadhi",
       "description": "Homestyle Pyaz Kadhi from Hariyali Rasoi's Dal & Kadhi selection. Freshly prepared vegetarian fare, served with care. ₹140.",
-      "price": 140.0,
+      "price": 140,
       "tags": [
         "comfort food",
         "dal",
@@ -1531,7 +1574,7 @@
       "slug": "kadhi-pakoda",
       "category_slug": "dal-kadhi",
       "description": "Homestyle Kadhi Pakoda from Hariyali Rasoi's Dal & Kadhi selection. Freshly prepared vegetarian fare, served with care. ₹150.",
-      "price": 150.0,
+      "price": 210,
       "tags": [
         "comfort food",
         "dal",
@@ -1546,14 +1589,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/4840c9f49d0868f109088c31a2ac376e"
     },
     {
       "name": "Aloo Jeera",
       "slug": "aloo-jeera",
       "category_slug": "veg-curries",
       "description": "Homestyle Aloo Jeera from Hariyali Rasoi's Veg Curries selection. Freshly prepared vegetarian fare, served with care. ₹135.",
-      "price": 135.0,
+      "price": 170,
       "tags": [
         "aloo",
         "curry",
@@ -1569,14 +1613,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/579f4d11c27a8456e78cd5f5b204b43e"
     },
     {
       "name": "Aloo Matar",
       "slug": "aloo-matar",
       "category_slug": "veg-curries",
       "description": "Homestyle Aloo Matar from Hariyali Rasoi's Veg Curries selection. Freshly prepared vegetarian fare, served with care. ₹180.",
-      "price": 180.0,
+      "price": 300,
       "tags": [
         "aloo",
         "curry",
@@ -1592,14 +1637,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/b3816b88dfd34950d06d541e349acf66"
     },
     {
       "name": "Aloo Dum",
       "slug": "aloo-dum",
       "category_slug": "veg-curries",
       "description": "Homestyle Aloo Dum from Hariyali Rasoi's Veg Curries selection. Freshly prepared vegetarian fare, served with care. ₹170.",
-      "price": 170.0,
+      "price": 190,
       "tags": [
         "aloo",
         "curry",
@@ -1615,14 +1661,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/9cd11ce0c0996e2e2a8c6d5089a29c0f"
     },
     {
       "name": "Aloo Do Pyaza",
       "slug": "aloo-do-pyaza",
       "category_slug": "veg-curries",
       "description": "Homestyle Aloo Do Pyaza from Hariyali Rasoi's Veg Curries selection. Freshly prepared vegetarian fare, served with care. ₹180.",
-      "price": 180.0,
+      "price": 210,
       "tags": [
         "aloo",
         "curry",
@@ -1638,14 +1685,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/b3ead15901839d42d47f3bf22fd419d2"
     },
     {
       "name": "Aloo Palak",
       "slug": "aloo-palak",
       "category_slug": "veg-curries",
       "description": "Homestyle Aloo Palak from Hariyali Rasoi's Veg Curries selection. Freshly prepared vegetarian fare, served with care. ₹150.",
-      "price": 150.0,
+      "price": 225,
       "tags": [
         "aloo",
         "curry",
@@ -1661,14 +1709,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/51a74c5ddf30ec7c00d454e19f3e2421"
     },
     {
       "name": "Baigan Ka Bharta",
       "slug": "baigan-ka-bharta",
       "category_slug": "veg-curries",
-      "description": "Homestyle Baigan Ka Bharta from Hariyali Rasoi's Veg Curries selection. Freshly prepared vegetarian fare, served with care. ₹180.",
-      "price": 180.0,
+      "description": "Baingan Bharta is a popular Punjabi dish from the North Indian cuisine. It is made with a mash of roasted eggplant, onions, tomatoes, herbs and spices.",
+      "price": 225,
       "tags": [
         "baigan",
         "bharta",
@@ -1684,14 +1733,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 6
+      "display_order": 6,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/f5dfb8a92a39e6279ddfe6a159ba0a64"
     },
     {
       "name": "Mix Vegetable",
       "slug": "mix-vegetable",
       "category_slug": "veg-curries",
       "description": "Homestyle Mix Vegetable from Hariyali Rasoi's Veg Curries selection. Freshly prepared vegetarian fare, served with care. ₹200.",
-      "price": 200.0,
+      "price": 285,
       "tags": [
         "curry",
         "main course",
@@ -1706,14 +1756,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 7
+      "display_order": 7,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/a0a161c004de5c765ac6a2d78306bde4"
     },
     {
       "name": "Panchmel Dal",
       "slug": "panchmel-dal",
       "category_slug": "veg-curries",
       "description": "Homestyle Panchmel Dal from Hariyali Rasoi's Veg Curries selection. Freshly prepared vegetarian fare, served with care. ₹180.",
-      "price": 180.0,
+      "price": 180,
       "tags": [
         "curry",
         "dal",
@@ -1736,7 +1787,7 @@
       "slug": "amritsari-chole",
       "category_slug": "veg-curries",
       "description": "Homestyle Amritsari Chole from Hariyali Rasoi's Veg Curries selection. Freshly prepared vegetarian fare, served with care. ₹180.",
-      "price": 180.0,
+      "price": 260,
       "tags": [
         "amritsari",
         "chole",
@@ -1752,14 +1803,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 9
+      "display_order": 9,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/8f869da21de611de174a5fe8700a4f78"
     },
     {
       "name": "Rajma Masala",
       "slug": "rajma-masala",
       "category_slug": "veg-curries",
       "description": "Homestyle Rajma Masala from Hariyali Rasoi's Veg Curries selection. Freshly prepared vegetarian fare, served with care. ₹180.",
-      "price": 180.0,
+      "price": 279,
       "tags": [
         "curry",
         "main course",
@@ -1775,14 +1827,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 10
+      "display_order": 10,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/436919b9-052e-47e7-a09d-49c7bf82ca54_48ac2352-cf6a-4292-90c9-92e31eba6061.jpg"
     },
     {
       "name": "Kadhai Paneer",
       "slug": "kadhai-paneer",
       "category_slug": "paneer-special",
       "description": "Homestyle Kadhai Paneer from Hariyali Rasoi's Paneer Special selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 285,
       "tags": [
         "curry",
         "kadhai",
@@ -1797,14 +1850,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c76eb86e997451c807effde55243f125"
     },
     {
       "name": "Paneer Butter Masala",
       "slug": "paneer-butter-masala",
       "category_slug": "paneer-special",
       "description": "Homestyle Paneer Butter Masala from Hariyali Rasoi's Paneer Special selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 290,
       "tags": [
         "butter",
         "curry",
@@ -1820,14 +1874,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/32a4f94c48fce134bb1e804128934152"
     },
     {
       "name": "Mattar Paneer",
       "slug": "mattar-paneer",
       "category_slug": "paneer-special",
       "description": "Homestyle Mattar Paneer from Hariyali Rasoi's Paneer Special selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 230,
       "tags": [
         "curry",
         "main course",
@@ -1849,7 +1904,7 @@
       "slug": "paneer-do-pyaaza",
       "category_slug": "paneer-special",
       "description": "Homestyle Paneer Do Pyaaza from Hariyali Rasoi's Paneer Special selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 230,
       "tags": [
         "curry",
         "main course",
@@ -1871,7 +1926,7 @@
       "slug": "palak-paneer-lasuni",
       "category_slug": "paneer-special",
       "description": "Homestyle Palak Paneer Lasuni from Hariyali Rasoi's Paneer Special selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 280,
       "tags": [
         "curry",
         "lasuni",
@@ -1887,14 +1942,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/824bb836ed5716709dc5dd9a313f1e82"
     },
     {
       "name": "Mushroom Masala",
       "slug": "mushroom-masala",
       "category_slug": "mushroom-soya",
       "description": "Homestyle Mushroom Masala from Hariyali Rasoi's Mushroom & Soya selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 280,
       "tags": [
         "curry",
         "masala",
@@ -1909,14 +1965,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/ce4930497a62ac1985a6438915907f31"
     },
     {
       "name": "Mattar Mushroom Masala",
       "slug": "mattar-mushroom-masala",
       "category_slug": "mushroom-soya",
       "description": "Homestyle Mattar Mushroom Masala from Hariyali Rasoi's Mushroom & Soya selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 230,
       "tags": [
         "curry",
         "masala",
@@ -1939,7 +1996,7 @@
       "slug": "soya-chaap-masala-gravy",
       "category_slug": "mushroom-soya",
       "description": "Homestyle Soya Chaap Masala (Gravy) from Hariyali Rasoi's Mushroom & Soya selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 280,
       "tags": [
         "chaap",
         "curry",
@@ -1957,14 +2014,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/37222c0e7122362d8cf7ae794f2cca05"
     },
     {
       "name": "Tandoori Soya Chaap",
       "slug": "tandoori-soya-chaap",
       "category_slug": "mushroom-soya",
       "description": "Homestyle Tandoori Soya Chaap from Hariyali Rasoi's Mushroom & Soya selection. Freshly prepared vegetarian fare, served with care. ₹220.",
-      "price": 220.0,
+      "price": 220,
       "tags": [
         "chaap",
         "curry",
@@ -1988,7 +2046,7 @@
       "slug": "vegetable-kofta-4-pcs",
       "category_slug": "kofta-special",
       "description": "Homestyle Vegetable Kofta (4 pcs) from Hariyali Rasoi's Kofta & Special selection. Freshly prepared vegetarian fare, served with care. ₹240.",
-      "price": 240.0,
+      "price": 290,
       "tags": [
         "curry",
         "kofta",
@@ -2003,14 +2061,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0d34f089f8e0f2d7bfaca570576f55d2"
     },
     {
       "name": "Malai Kofta (4 pcs)",
       "slug": "malai-kofta-4-pcs",
       "category_slug": "kofta-special",
       "description": "Homestyle Malai Kofta (4 pcs) from Hariyali Rasoi's Kofta & Special selection. Freshly prepared vegetarian fare, served with care. ₹240.",
-      "price": 240.0,
+      "price": 295,
       "tags": [
         "curry",
         "kofta",
@@ -2025,14 +2084,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c435d002b68d876b4177d3344eeb6a59"
     },
     {
       "name": "Rajasthani Papad Ki Sabji",
       "slug": "rajasthani-papad-ki-sabji",
       "category_slug": "rajasthani-special",
       "description": "Homestyle Rajasthani Papad Ki Sabji from Hariyali Rasoi's Rajasthani Special selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 280,
       "tags": [
         "gatte",
         "papad",
@@ -2048,14 +2108,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/1/6/556d52ed-bdec-4ee0-8de6-09773d6c988e_63a62fc7-90d9-472e-af3e-a332f0f2e1e3.jpg"
     },
     {
       "name": "Rajasthani Gatte Ki Sabzi",
       "slug": "rajasthani-gatte-ki-sabzi",
       "category_slug": "rajasthani-special",
       "description": "Homestyle Rajasthani Gatte Ki Sabzi from Hariyali Rasoi's Rajasthani Special selection. Freshly prepared vegetarian fare, served with care. ₹220.",
-      "price": 220.0,
+      "price": 220,
       "tags": [
         "gatte",
         "papad",
@@ -2078,7 +2139,7 @@
       "slug": "sarson-ka-saag",
       "category_slug": "rajasthani-special",
       "description": "Homestyle Sarson Ka Saag from Hariyali Rasoi's Rajasthani Special selection. Freshly prepared vegetarian fare, served with care. ₹220.",
-      "price": 220.0,
+      "price": 245,
       "tags": [
         "gatte",
         "papad",
@@ -2094,14 +2155,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/1/30/bab55ae1-2804-4682-b61a-ed41160ec0f5_2514f801-9d91-442c-9cfd-cc4a2f2374a7.JPG"
     },
     {
       "name": "Fulka",
       "slug": "fulka",
       "category_slug": "roti-paratha",
       "description": "Homestyle Fulka from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹12.",
-      "price": 12.0,
+      "price": 15,
       "tags": [
         "bread",
         "fulka",
@@ -2116,14 +2178,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/d8d5640f2f760cdc6f14a9633c809630"
     },
     {
       "name": "Ghee Fulka",
       "slug": "ghee-fulka",
       "category_slug": "roti-paratha",
       "description": "Homestyle Ghee Fulka from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹15.",
-      "price": 15.0,
+      "price": 20,
       "tags": [
         "bread",
         "fulka",
@@ -2139,14 +2202,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/1e7a53cc69d11ee1a1347725af66bf9e"
     },
     {
       "name": "Plain Paratha",
       "slug": "plain-paratha",
       "category_slug": "roti-paratha",
       "description": "Homestyle Plain Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹25.",
-      "price": 25.0,
+      "price": 40,
       "tags": [
         "bread",
         "indian bread",
@@ -2161,14 +2225,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/475046a5a5f5df65cfb075faa7224ada"
     },
     {
       "name": "Methi Paratha",
       "slug": "methi-paratha",
       "category_slug": "roti-paratha",
-      "description": "Homestyle Methi Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹35.",
-      "price": 35.0,
+      "description": "(Methi paratha 2 pcs + Kadhi + Aloo jeera + Sweet + Pickle)",
+      "price": 210,
       "tags": [
         "bread",
         "indian bread",
@@ -2183,14 +2248,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/2/19/7bc4987a-792e-4510-9cba-deefc00fc7d3_1ea67b48-1a7d-40d3-b10e-d35685009280.JPG"
     },
     {
       "name": "Missi Roti",
       "slug": "missi-roti",
       "category_slug": "roti-paratha",
-      "description": "Homestyle Missi Roti from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹35.",
-      "price": 35.0,
+      "description": "(Missi roti 2 pcs + Kadhi + Aloo jeera + Sweet + Pickle)",
+      "price": 220,
       "tags": [
         "bread",
         "indian bread",
@@ -2205,14 +2271,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/2fd173745f329bd1153c781303ccaec6"
     },
     {
       "name": "Makke Di Roti",
       "slug": "makke-di-roti",
       "category_slug": "roti-paratha",
-      "description": "Homestyle Makke Di Roti from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹45.",
-      "price": 45.0,
+      "description": "If you’re a fan of flatbreads, you need to try my Punjabi Makki Ki Roti,This corn-based unleavened flatbreads (sometimes called makki di roti) are delicious, slightly sweet from the maize flour or cornmeal, and perfect for a winter lunch or dinner",
+      "price": 70,
       "tags": [
         "bread",
         "indian bread",
@@ -2227,14 +2294,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 6
+      "display_order": 6,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/9e5de258497de39a399ac31ca1f852b8"
     },
     {
       "name": "Bajre Di Roti",
       "slug": "bajre-di-roti",
       "category_slug": "roti-paratha",
       "description": "Homestyle Bajre Di Roti from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹45.",
-      "price": 45.0,
+      "price": 45,
       "tags": [
         "bajre",
         "bread",
@@ -2255,8 +2323,8 @@
       "name": "Puran Poli (4 pcs)",
       "slug": "puran-poli-4-pcs",
       "category_slug": "roti-paratha",
-      "description": "Homestyle Puran Poli (4 pcs) from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹120.",
-      "price": 120.0,
+      "description": "Medium Spicy",
+      "price": 175,
       "tags": [
         "bread",
         "indian bread",
@@ -2273,14 +2341,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 8
+      "display_order": 8,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/3/30/53b25d8c-ad2e-41cd-af3b-724121f49764_10ef6e37-5039-454c-aa36-afe2be78039d.jpg"
     },
     {
       "name": "Thepla (5 pcs)",
       "slug": "thepla-5-pcs",
       "category_slug": "roti-paratha",
       "description": "Homestyle Thepla (5 pcs) from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹125.",
-      "price": 125.0,
+      "price": 125,
       "tags": [
         "bread",
         "indian bread",
@@ -2303,7 +2372,7 @@
       "slug": "aloo-paratha",
       "category_slug": "roti-paratha",
       "description": "Homestyle Aloo Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹60.",
-      "price": 60.0,
+      "price": 90,
       "tags": [
         "aloo",
         "bread",
@@ -2318,14 +2387,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 10
+      "display_order": 10,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/1048558569768c34eb67ad9d2c02a85b"
     },
     {
       "name": "Sattu Paratha",
       "slug": "sattu-paratha",
       "category_slug": "roti-paratha",
       "description": "Homestyle Sattu Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹70.",
-      "price": 70.0,
+      "price": 70,
       "tags": [
         "bread",
         "indian bread",
@@ -2347,7 +2417,7 @@
       "slug": "onion-paratha",
       "category_slug": "roti-paratha",
       "description": "Homestyle Onion Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹60.",
-      "price": 60.0,
+      "price": 90,
       "tags": [
         "bread",
         "indian bread",
@@ -2362,14 +2432,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 12
+      "display_order": 12,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/696db6fffb341cfe4a3e2de3d3f40f1d"
     },
     {
       "name": "Paneer Paratha",
       "slug": "paneer-paratha",
       "category_slug": "roti-paratha",
       "description": "Homestyle Paneer Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹100.",
-      "price": 100.0,
+      "price": 120,
       "tags": [
         "bread",
         "indian bread",
@@ -2384,14 +2455,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 13
+      "display_order": 13,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/24def8b84bcd3afb54a37b1abde4c468"
     },
     {
       "name": "Gobhi Paratha",
       "slug": "gobhi-paratha",
       "category_slug": "roti-paratha",
       "description": "Homestyle Gobhi Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹70.",
-      "price": 70.0,
+      "price": 70,
       "tags": [
         "bread",
         "gobhi",
@@ -2413,7 +2485,7 @@
       "slug": "chilli-garlic-onion-paratha",
       "category_slug": "roti-paratha",
       "description": "Homestyle Chilli Garlic Onion Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹110.",
-      "price": 110.0,
+      "price": 110,
       "tags": [
         "bread",
         "chilli",
@@ -2430,14 +2502,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 15
+      "display_order": 15,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/47534741b1ce9d007b37c048cd18b5c7"
     },
     {
       "name": "Mooli Paratha",
       "slug": "mooli-paratha",
       "category_slug": "roti-paratha",
       "description": "Homestyle Mooli Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹60.",
-      "price": 60.0,
+      "price": 60,
       "tags": [
         "bread",
         "indian bread",
@@ -2459,7 +2532,7 @@
       "slug": "mattar-paratha",
       "category_slug": "roti-paratha",
       "description": "Homestyle Mattar Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹70.",
-      "price": 70.0,
+      "price": 70,
       "tags": [
         "bread",
         "indian bread",
@@ -2481,7 +2554,7 @@
       "slug": "lachha-paratha",
       "category_slug": "roti-paratha",
       "description": "Homestyle Lachha Paratha from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹50.",
-      "price": 50.0,
+      "price": 70,
       "tags": [
         "bread",
         "indian bread",
@@ -2496,14 +2569,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 18
+      "display_order": 18,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/b93c13555741ca18accd08248252a2b6"
     },
     {
       "name": "Lachha Paratha (Cheese)",
       "slug": "lachha-paratha-cheese",
       "category_slug": "roti-paratha",
       "description": "Homestyle Lachha Paratha (Cheese) from Hariyali Rasoi's Roti & Paratha selection. Freshly prepared vegetarian fare, served with care. ₹80.",
-      "price": 80.0,
+      "price": 80,
       "tags": [
         "bread",
         "cheese",
@@ -2526,7 +2600,7 @@
       "slug": "makkai-roti-sarson-ka-saag-2-pcs",
       "category_slug": "combos",
       "description": "Homestyle Makkai Roti & Sarson Ka Saag (2 pcs) from Hariyali Rasoi's Combos selection. Freshly prepared vegetarian fare, served with care. ₹280.",
-      "price": 280.0,
+      "price": 310,
       "tags": [
         "combo",
         "complete meal",
@@ -2546,14 +2620,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/ce6aa76a-48f6-4a8b-83bc-a7a68d64339d_1f5e7d01-5ed9-4b0d-8099-1ae549a5d030.jpg"
     },
     {
       "name": "Bajra Roti & Aloo Mattar & Lasun Chutney",
       "slug": "bajra-roti-aloo-mattar-lasun-chutney",
       "category_slug": "combos",
       "description": "Homestyle Bajra Roti & Aloo Mattar & Lasun Chutney from Hariyali Rasoi's Combos selection. Freshly prepared vegetarian fare, served with care. ₹280.",
-      "price": 280.0,
+      "price": 280,
       "tags": [
         "aloo",
         "bajra",
@@ -2581,7 +2656,7 @@
       "slug": "rajma-chawal",
       "category_slug": "combos",
       "description": "Homestyle Rajma Chawal from Hariyali Rasoi's Combos selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 230,
       "tags": [
         "chawal",
         "combo",
@@ -2604,7 +2679,7 @@
       "slug": "lachha-paratha-kadhai-paneer",
       "category_slug": "combos",
       "description": "Homestyle Lachha Paratha & Kadhai Paneer from Hariyali Rasoi's Combos selection. Freshly prepared vegetarian fare, served with care. ₹230.",
-      "price": 230.0,
+      "price": 230,
       "tags": [
         "combo",
         "complete meal",
@@ -2630,7 +2705,7 @@
       "slug": "lachha-paratha-amritsari-chole",
       "category_slug": "combos",
       "description": "Homestyle Lachha Paratha & Amritsari Chole from Hariyali Rasoi's Combos selection. Freshly prepared vegetarian fare, served with care. ₹210.",
-      "price": 210.0,
+      "price": 210,
       "tags": [
         "amritsari",
         "chole",
@@ -2656,7 +2731,7 @@
       "slug": "dal-makhani-jeera-rice",
       "category_slug": "combos",
       "description": "Homestyle Dal Makhani & Jeera Rice from Hariyali Rasoi's Combos selection. Freshly prepared vegetarian fare, served with care. ₹200.",
-      "price": 200.0,
+      "price": 200,
       "tags": [
         "combo",
         "complete meal",
@@ -2681,7 +2756,7 @@
       "slug": "chole-jeera-rice",
       "category_slug": "combos",
       "description": "Homestyle Chole & Jeera Rice from Hariyali Rasoi's Combos selection. Freshly prepared vegetarian fare, served with care. ₹200.",
-      "price": 200.0,
+      "price": 200,
       "tags": [
         "chole",
         "combo",
@@ -2705,7 +2780,7 @@
       "slug": "kadhi-peas-pulao",
       "category_slug": "combos",
       "description": "Homestyle Kadhi & Peas Pulao from Hariyali Rasoi's Combos selection. Freshly prepared vegetarian fare, served with care. ₹200.",
-      "price": 200.0,
+      "price": 200,
       "tags": [
         "combo",
         "complete meal",
@@ -2728,8 +2803,8 @@
       "name": "Mini Thali (Rice + 2 Roti + Dal Fry + Veg Sabzi + Salad)",
       "slug": "mini-thali-rice-2-roti-dal-fry-veg-sabzi-salad",
       "category_slug": "thali",
-      "description": "Homestyle Mini Thali (Rice + 2 Roti + Dal Fry + Veg Sabzi + Salad) from Hariyali Rasoi's Thali selection. Freshly prepared vegetarian fare, served with care. ₹160.",
-      "price": 160.0,
+      "description": "Rice + Roti (2pcs) + Dal Fry + veg Sabji + Salad + Papad",
+      "price": 180,
       "tags": [
         "combo",
         "complete meal",
@@ -2752,14 +2827,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c15ac348c09d9cbec4f328be10cb7c35"
     },
     {
       "name": "Methi Paratha Thali (2 Methi Paratha + Kadhi + Aloo Jeera + Sweet + Pickle + Salad)",
       "slug": "methi-paratha-thali-2-methi-paratha-kadhi-aloo-jeera-sweet-pickle-salad",
       "category_slug": "thali",
       "description": "Homestyle Methi Paratha Thali (2 Methi Paratha + Kadhi + Aloo Jeera + Sweet + Pickle + Salad) from Hariyali Rasoi's Thali selection. Freshly prepared vegetarian fare, served with care. ₹200.",
-      "price": 200.0,
+      "price": 200,
       "tags": [
         "aloo",
         "combo",
@@ -2788,8 +2864,8 @@
       "name": "Veg Executive Thali (2 Ghee Roti + Jeera Rice + Dal Fry + Paneer Sabzi + Veg Sabzi + Curd + Salad + Fryums)",
       "slug": "veg-executive-thali-2-ghee-roti-jeera-rice-dal-fry-paneer-sabzi-veg-sabzi-curd-salad-fryums",
       "category_slug": "thali",
-      "description": "Homestyle Veg Executive Thali (2 Ghee Roti + Jeera Rice + Dal Fry + Paneer Sabzi + Veg Sabzi + Curd + Salad + Fryums) from Hariyali Rasoi's Thali selection. Freshly prepared vegetarian fare, served with care. ₹220.",
-      "price": 220.0,
+      "description": "Ghee Fulka - 2 + Plain Rice + Paneer Sabji + veg Sabji + Dal Fry + Salad + Papad + Curd",
+      "price": 240,
       "tags": [
         "combo",
         "complete meal",
@@ -2817,14 +2893,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/892a1aab07c7bc9cd0f61724f8755e0b"
     },
     {
       "name": "Paratha Wali Thali (4 Plain Paratha + Kadhi + Veg Sabzi + Salad + Pickle + Fryums)",
       "slug": "paratha-wali-thali-4-plain-paratha-kadhi-veg-sabzi-salad-pickle-fryums",
       "category_slug": "thali",
-      "description": "Homestyle Paratha Wali Thali (4 Plain Paratha + Kadhi + Veg Sabzi + Salad + Pickle + Fryums) from Hariyali Rasoi's Thali selection. Freshly prepared vegetarian fare, served with care. ₹200.",
-      "price": 200.0,
+      "description": "4 pcs plain paratha + Yellow dal/Kadhi(as per availability) + Seasonal vegetable(as per availability) + Salad + Pickle  Fryums)",
+      "price": 225,
       "tags": [
         "combo",
         "complete meal",
@@ -2855,7 +2932,7 @@
       "slug": "roti-wali-thali-4-ghee-roti-dal-fry-veg-sabzi-salad-fryums",
       "category_slug": "thali",
       "description": "Homestyle Roti Wali Thali (4 Ghee Roti + Dal Fry + Veg Sabzi + Salad + Fryums) from Hariyali Rasoi's Thali selection. Freshly prepared vegetarian fare, served with care. ₹160.",
-      "price": 160.0,
+      "price": 160,
       "tags": [
         "combo",
         "complete meal",
@@ -2886,7 +2963,7 @@
       "slug": "hariyali-rasoi-special-thali-veg-pulao-2-plain-paratha-dal-fry-paneer-sabzi-veg-sabzi-raita-salad-papad-pickle",
       "category_slug": "thali",
       "description": "Homestyle Hariyali Rasoi Special Thali (Veg Pulao + 2 Plain Paratha + Dal Fry + Paneer Sabzi + Veg Sabzi + Raita + Salad + Papad + Pickle) from Hariyali Rasoi's Thali selection. Freshly prepared vegetarian fare, served with care. ₹260.",
-      "price": 260.0,
+      "price": 260,
       "tags": [
         "combo",
         "complete meal",
@@ -2923,7 +3000,7 @@
       "slug": "missi-roti-thali-2-missi-roti-kadhi-aloo-jeera-sweet-pickle-salad",
       "category_slug": "thali",
       "description": "Homestyle Missi Roti Thali (2 Missi Roti + Kadhi + Aloo Jeera + Sweet + Pickle + Salad) from Hariyali Rasoi's Thali selection. Freshly prepared vegetarian fare, served with care. ₹200.",
-      "price": 200.0,
+      "price": 200,
       "tags": [
         "aloo",
         "combo",
@@ -2953,7 +3030,7 @@
       "slug": "sada-shikanji",
       "category_slug": "beverages",
       "description": "Homestyle Sada Shikanji from Hariyali Rasoi's Beverages selection. Freshly prepared vegetarian fare, served with care. ₹50.",
-      "price": 50.0,
+      "price": 50,
       "tags": [
         "beverages",
         "drinks",
@@ -2976,7 +3053,7 @@
       "slug": "salted-lime-soda",
       "category_slug": "beverages",
       "description": "Homestyle Salted Lime Soda from Hariyali Rasoi's Beverages selection. Freshly prepared vegetarian fare, served with care. ₹50.",
-      "price": 50.0,
+      "price": 70,
       "tags": [
         "beverages",
         "drinks",
@@ -2994,14 +3071,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/95d573c5cba627f208a69a4f22299465"
     },
     {
       "name": "Sweet Lassi",
       "slug": "sweet-lassi",
       "category_slug": "beverages",
-      "description": "Homestyle Sweet Lassi from Hariyali Rasoi's Beverages selection. Freshly prepared vegetarian fare, served with care. ₹70.",
-      "price": 70.0,
+      "description": "Oldest Smoothie in the World, This is Purely Made Of Curd and Added  Flavour,A Sip Of Sweet Lassi Is Hard To Resist.",
+      "price": 80,
       "tags": [
         "beverages",
         "drinks",
@@ -3024,7 +3102,7 @@
       "slug": "butter-milk",
       "category_slug": "beverages",
       "description": "Homestyle Butter Milk from Hariyali Rasoi's Beverages selection. Freshly prepared vegetarian fare, served with care. ₹50.",
-      "price": 50.0,
+      "price": 75,
       "tags": [
         "beverages",
         "butter",
@@ -3041,14 +3119,15 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/1/18/675d9eb2-d1ab-4ff6-984c-d4b92377df6c_e932cb3c-c5e8-4e5d-b161-65a2064e225b.JPG"
     },
     {
       "name": "Masala Cold Drink",
       "slug": "masala-cold-drink",
       "category_slug": "beverages",
-      "description": "Homestyle Masala Cold Drink from Hariyali Rasoi's Beverages selection. Freshly prepared vegetarian fare, served with care. ₹50.",
-      "price": 50.0,
+      "description": "A refreshing drink",
+      "price": 70,
       "tags": [
         "beverages",
         "cold",
@@ -3067,6 +3146,1424 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 5
+    },
+    {
+      "name": "Kheer [300 Ml]",
+      "slug": "kheer-300-ml",
+      "category_slug": "sweets",
+      "description": "From Hariyali Rasoi's Sweets menu on Zomato.",
+      "price": 130,
+      "tags": [
+        "kheer"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 122,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/79189f14-ad9b-4c4d-903d-7ce4b08b66f7_7a53fdf9-96a7-459c-9a07-d49e60734958.jpg"
+    },
+    {
+      "name": "Suji Ka Halwa [300 Ml]",
+      "slug": "suji-ka-halwa-300-ml",
+      "category_slug": "sweets",
+      "description": "From Hariyali Rasoi's Sweets menu on Zomato.",
+      "price": 110,
+      "tags": [
+        "suji",
+        "halwa"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 123
+    },
+    {
+      "name": "Gobi Paratha",
+      "slug": "gobi-paratha",
+      "category_slug": "roti-paratha",
+      "description": "From Hariyali Rasoi's Roti & Paratha menu on Zomato.",
+      "price": 180,
+      "tags": [
+        "gobi",
+        "paratha"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 124,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/d4a2a633ae477baa93a95924ee6acada"
+    },
+    {
+      "name": "Hariyali Rasoi Special Paratha (2pc)",
+      "slug": "hariyali-rasoi-special-paratha-2pc",
+      "category_slug": "roti-paratha",
+      "description": "It is a paratha where crumbled paneer tossed with veggies is cooked in ground spices and filled with in Indian Flat Bread to shape a thick fat square packet and served with tangy coriander chutney.",
+      "price": 198,
+      "tags": [
+        "hariyali",
+        "rasoi",
+        "special",
+        "paratha"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 125,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/19c39a9fb410a1a5e3944327c486778b"
+    },
+    {
+      "name": "Papad Paratha",
+      "slug": "papad-paratha",
+      "category_slug": "roti-paratha",
+      "description": "From Hariyali Rasoi's Roti & Paratha menu on Zomato.",
+      "price": 70,
+      "tags": [
+        "papad",
+        "paratha"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 126
+    },
+    {
+      "name": "Ragi Roti [2 Pcs]",
+      "slug": "ragi-roti-2-pcs",
+      "category_slug": "roti-paratha",
+      "description": "Rajasthani Dal Paratha With Lasoon Chutney[2 pcs]",
+      "price": 137,
+      "tags": [
+        "ragi",
+        "roti"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 127
+    },
+    {
+      "name": "Satoo Paratha",
+      "slug": "satoo-paratha",
+      "category_slug": "roti-paratha",
+      "description": "From Hariyali Rasoi's Roti & Paratha menu on Zomato.",
+      "price": 90,
+      "tags": [
+        "satoo",
+        "paratha"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 128,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/dfaae6a3544607f11331b271000f7b32"
+    },
+    {
+      "name": "Chilli Garlic Noodles",
+      "slug": "chilli-garlic-noodles",
+      "category_slug": "chinese",
+      "description": "From Hariyali Rasoi's Chinese menu on Zomato.",
+      "price": 198,
+      "tags": [
+        "chilli",
+        "garlic",
+        "noodles"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 129,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/1/13/8f521cfa-8276-45dc-9d9c-287e692f54c7_5339e4b1-45c7-488f-8952-bf37ae2cb61c.JPG"
+    },
+    {
+      "name": "Chilli Mushroom Gravy",
+      "slug": "chilli-mushroom-gravy",
+      "category_slug": "chinese",
+      "description": "From Hariyali Rasoi's Chinese menu on Zomato.",
+      "price": 248,
+      "tags": [
+        "chilli",
+        "mushroom",
+        "gravy"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 130,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/2/6/ea80f1ac-7b6c-432d-9f04-4fe412098bca_c92513ed-5b9f-4395-b537-0d4e4e18abeb.JPG"
+    },
+    {
+      "name": "Hakka Noodles",
+      "slug": "hakka-noodles",
+      "category_slug": "chinese",
+      "description": "From Hariyali Rasoi's Chinese menu on Zomato.",
+      "price": 185,
+      "tags": [
+        "hakka",
+        "noodles"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 131,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/460e9dcfc6830c0586a2cf03cf472a23"
+    },
+    {
+      "name": "Mixed Sauce Pasta",
+      "slug": "mixed-sauce-pasta",
+      "category_slug": "chinese",
+      "description": "From Hariyali Rasoi's Chinese menu on Zomato.",
+      "price": 250,
+      "tags": [
+        "mixed",
+        "sauce",
+        "pasta"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 132,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/79de892db3b26d75d9668d7cb59d7d13"
+    },
+    {
+      "name": "Paneer Chili",
+      "slug": "paneer-chili",
+      "category_slug": "chinese",
+      "description": "From Hariyali Rasoi's Chinese menu on Zomato.",
+      "price": 245,
+      "tags": [
+        "paneer",
+        "chili"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 133,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/928d522d54477dea2de059371207c02b"
+    },
+    {
+      "name": "Schezwan Fried Rice",
+      "slug": "schezwan-fried-rice",
+      "category_slug": "chinese",
+      "description": "From Hariyali Rasoi's Chinese menu on Zomato.",
+      "price": 200,
+      "tags": [
+        "schezwan",
+        "fried",
+        "rice"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 134,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/8/9/fed20859-d1cd-45d2-b733-f746f3891c4f_505025d9-f7d8-413f-a9d9-0889a107d61e.jpg"
+    },
+    {
+      "name": "Spaghetti Pasta",
+      "slug": "spaghetti-pasta",
+      "category_slug": "chinese",
+      "description": "Spaghetti is a long, thin, solid, cylindrical pasta. It is a staple food of traditional Italian cuisine,we served it with different flavoured souce",
+      "price": 250,
+      "tags": [
+        "spaghetti",
+        "pasta"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 135,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/354b03b2cadd573474123da2ed151d4b"
+    },
+    {
+      "name": "Veg Manchurian",
+      "slug": "veg-manchurian",
+      "category_slug": "chinese",
+      "description": "From Hariyali Rasoi's Chinese menu on Zomato.",
+      "price": 220,
+      "tags": [
+        "veg",
+        "manchurian"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 136,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/3dd8a460396859eadf9df411c1aaece2"
+    },
+    {
+      "name": "Aam Panna",
+      "slug": "aam-panna",
+      "category_slug": "beverages",
+      "description": "Aam Panna or Kairi Panha is the perfect way to refresh and rehydrate during the oppressively hot Indian summers. We Made it from unripe green mangoes and a bevy of Indian spices, this summer cooler is a sweet-tart revelation that’ll have you coming back for more.",
+      "price": 80,
+      "tags": [
+        "aam",
+        "panna"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 137,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/757593ea0812e04dc56b20580f8930e3"
+    },
+    {
+      "name": "Cold Drinks 1ltr",
+      "slug": "cold-drinks-1ltr",
+      "category_slug": "beverages",
+      "description": "From Hariyali Rasoi's Beverages menu on Zomato.",
+      "price": 125,
+      "tags": [
+        "cold",
+        "drinks",
+        "1ltr"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 138
+    },
+    {
+      "name": "Masala Sattu Drink With Onion",
+      "slug": "masala-sattu-drink-with-onion",
+      "category_slug": "beverages",
+      "description": "From Hariyali Rasoi's Beverages menu on Zomato.",
+      "price": 120,
+      "tags": [
+        "masala",
+        "sattu",
+        "drink",
+        "with",
+        "onion"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 139,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/3/28/0c58e068-e293-4ef9-a50b-9864503b79a5_f70765b8-6d16-46c9-a9c4-dc2d5bbc1115.jpg"
+    },
+    {
+      "name": "Mint Mojito (300ml)",
+      "slug": "mint-mojito-300ml",
+      "category_slug": "beverages",
+      "description": "A refreshing drink made with the combination of lemon juice,peppermint,mint leaves,sugar,salt ,ice and soda.",
+      "price": 90,
+      "tags": [
+        "mint",
+        "mojito",
+        "300ml"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 140,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/5fa9563c66943eecfd38e5fd0e5c0521"
+    },
+    {
+      "name": "Oreo Shake",
+      "slug": "oreo-shake",
+      "category_slug": "beverages",
+      "description": "From Hariyali Rasoi's Beverages menu on Zomato.",
+      "price": 129,
+      "tags": [
+        "oreo",
+        "shake"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 141,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/982ac3644966331d52d4e630fdcf3870"
+    },
+    {
+      "name": "Soda Shikanji (300ml)",
+      "slug": "soda-shikanji-300ml",
+      "category_slug": "beverages",
+      "description": "Lemon,masala and shikani( Sweetness) freshly squeezed lime with soda & masala twist to beat the heat or to get you charged up.",
+      "price": 80,
+      "tags": [
+        "soda",
+        "shikanji",
+        "300ml"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 142,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/27e1acf26cd479fa10eb210dc7d57977"
+    },
+    {
+      "name": "Soya Chap Tandoor",
+      "slug": "soya-chap-tandoor",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 285,
+      "tags": [
+        "soya",
+        "chap",
+        "tandoor"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 143,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/b8a27f137fdfb9cd438b5f76a531b190"
+    },
+    {
+      "name": "Bundi Raita",
+      "slug": "bundi-raita",
+      "category_slug": "veg-curries",
+      "description": "Made With Curd(Yogurt) And Melt-In-The-Mouth Boondi, Together With A Few Ground Spices & Herbs",
+      "price": 140,
+      "tags": [
+        "bundi",
+        "raita"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 144,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/17be5fb126262757da0024b7c6625de5"
+    },
+    {
+      "name": "Corn Palak",
+      "slug": "corn-palak",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 270,
+      "tags": [
+        "corn",
+        "palak"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 145,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/f32d4ac68f94b931b08639cb92cac3b2"
+    },
+    {
+      "name": "Cucumber Raita",
+      "slug": "cucumber-raita",
+      "category_slug": "veg-curries",
+      "description": "Cucumber Raita Is a Popular savory condiment made with cucumber and curd (yogurt),",
+      "price": 140,
+      "tags": [
+        "cucumber",
+        "raita"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 146,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/f420d6b723d8ab4ef2f8ea2418cb6f05"
+    },
+    {
+      "name": "Green Salad",
+      "slug": "green-salad",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 130,
+      "tags": [
+        "green",
+        "salad"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 147,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/37fdaf24b3965940d16391ac2e8b0266"
+    },
+    {
+      "name": "Litti Chokha [4 Pieces]",
+      "slug": "litti-chokha-4-pieces",
+      "category_slug": "veg-curries",
+      "description": "Served with chutney and chokha.",
+      "price": 260,
+      "tags": [
+        "litti",
+        "chokha"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 148,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/6b0c78ec2a2e40d6bbb55ee2281216fe"
+    },
+    {
+      "name": "Methi Corn Malai",
+      "slug": "methi-corn-malai",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 285,
+      "tags": [
+        "methi",
+        "corn",
+        "malai"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 149,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/74666e6cfb026b63b85545a7b295aec2"
+    },
+    {
+      "name": "Muttar Paneer",
+      "slug": "muttar-paneer",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 285,
+      "tags": [
+        "muttar",
+        "paneer"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 150,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/55c71aca23b957a15dd62c2093d4c5ff"
+    },
+    {
+      "name": "Mutter Mushroom",
+      "slug": "mutter-mushroom",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 290,
+      "tags": [
+        "mutter",
+        "mushroom"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 151,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/2f423b277d2ecfad9bbe3cdd928b56ee"
+    },
+    {
+      "name": "Papad Sabzi",
+      "slug": "papad-sabzi",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 195,
+      "tags": [
+        "papad",
+        "sabzi"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 152,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/625fce66f9432e991132513733ef3c8c"
+    },
+    {
+      "name": "Roasted Papad",
+      "slug": "roasted-papad",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 55,
+      "tags": [
+        "roasted",
+        "papad"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 153,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/509f7b11e312b350a29abe3d236d95a7"
+    },
+    {
+      "name": "Panchmela Dal",
+      "slug": "panchmela-dal",
+      "category_slug": "veg-curries",
+      "description": "Panchmel dal also known as panchratna dal is a protein-packed lentil dish that contains the goodness and nutritive qualities of 5 different DALS. Not only it is healthy but also equally delicious. This hearty and nutritious recipe comes from Rajasthani cuisine and made without onion and garlic.",
+      "price": 230,
+      "tags": [
+        "panchmela",
+        "dal"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 154,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/7bc51e28e8e68879c17e9b831a14d69a"
+    },
+    {
+      "name": "Mix Raita",
+      "slug": "mix-raita",
+      "category_slug": "veg-curries",
+      "description": "Veg Raita is a raita variant made with Curd (yogurt), spices and an assortment of veggies. Being healthy, this Mix Vegetable Raita also perks up your everyday meals in the flavor and nutrition department.",
+      "price": 150,
+      "tags": [
+        "mix",
+        "raita"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 155,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/e3aca60333f6cc6b306d5c0640d0f4e7"
+    },
+    {
+      "name": "Rajasthani Kadhi",
+      "slug": "rajasthani-kadhi",
+      "category_slug": "veg-curries",
+      "description": "Kadhi is a tasty and aromatic gravy that holds some unique combinations of flavors which include spicy, sour, and tangy as well.Kadhi is usually paired with hot steamed basmati rice, bajra ki roti, khichdi, pulao, jeera rice, etc.",
+      "price": 210,
+      "tags": [
+        "rajasthani",
+        "kadhi"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 156,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/79f8ec849653eee57476b6625bbf1f4b"
+    },
+    {
+      "name": "Masala Papad",
+      "slug": "masala-papad",
+      "category_slug": "veg-curries",
+      "description": "Masala Papad is a starter snack of crispy rosted papad topped with a tangy, spiced masala filling of onions, tomatoes, herbs and spices.",
+      "price": 60,
+      "tags": [
+        "masala",
+        "papad"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 157,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/e2fb17c4af672548bb4be47246c1b775"
+    },
+    {
+      "name": "Masala Khichdi",
+      "slug": "masala-khichdi",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 180,
+      "tags": [
+        "masala",
+        "khichdi"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 158,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/7/2/aa0d93f8-70e6-4240-8ed8-992bd5618108_f5e2335d-7dd5-4366-8dc4-21f094c70182.jpg"
+    },
+    {
+      "name": "Aloo Chokha",
+      "slug": "aloo-chokha",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 120,
+      "tags": [
+        "aloo",
+        "chokha"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 159
+    },
+    {
+      "name": "Healthy Curd Rice",
+      "slug": "healthy-curd-rice",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 230,
+      "tags": [
+        "healthy",
+        "curd",
+        "rice"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 160
+    },
+    {
+      "name": "Onion Salad",
+      "slug": "onion-salad",
+      "category_slug": "veg-curries",
+      "description": "From Hariyali Rasoi on Swiggy (Veg Curries).",
+      "price": 80,
+      "tags": [
+        "onion",
+        "salad"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 161
+    },
+    {
+      "name": "Dahi Valle [4 Pieces]",
+      "slug": "dahi-valle-4-pieces",
+      "category_slug": "combos",
+      "description": "From Hariyali Rasoi on Swiggy (Combos).",
+      "price": 160,
+      "tags": [
+        "dahi",
+        "valle"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 162,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/f72c2f4e7481f4453f8fba1ed361796a"
+    },
+    {
+      "name": "Paneer Stuffed Besan Chilla With Green Chutney (2pc)",
+      "slug": "paneer-stuffed-besan-chilla-with-green-chutney-2pc",
+      "category_slug": "combos",
+      "description": "Instant besan chilla is a crispy crepe made with besan (chana dal flour) with paneer stuffed to make a filling, tasty, snack or dinner.",
+      "price": 210,
+      "tags": [
+        "paneer",
+        "stuffed",
+        "besan",
+        "chilla",
+        "with",
+        "green",
+        "chutney"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 163,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/92181565b8bb0ac4093194201a3c88f4"
+    },
+    {
+      "name": "Suji Chilla (2pc)",
+      "slug": "suji-chilla-2pc",
+      "category_slug": "combos",
+      "description": "Suji ka Cheela or Rava Chilla is a popular North Indian style savory pancake made with suji or rava (cream of wheat), onions, herbs and spices surved with Green Delicious Chutney",
+      "price": 140,
+      "tags": [
+        "suji",
+        "chilla"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 164,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/8f1bd7551fa8de5497acae86d5f44148"
+    },
+    {
+      "name": "Chole Kulcha (2pc)",
+      "slug": "chole-kulcha-2pc",
+      "category_slug": "combos",
+      "description": "Chole Kulche An Old Delhi Delicacy Cherished by Street Food Lovers, From school kids to office goers, everyone seems to enjoy this masaledaar street food snack that is more like a meal in itself. This combination of boiled chickpeas (chole) and a soft white flour bread (kulcha) is served garnished with chopped onions, juicy tomatoes, powdered spices and a generous squeeze of lime.",
+      "price": 190,
+      "tags": [
+        "chole",
+        "kulcha"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 165,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/3cb1052eddf9ca375553544449db412c"
+    },
+    {
+      "name": "Cheese Moonglet With Greem Chutney",
+      "slug": "cheese-moonglet-with-greem-chutney",
+      "category_slug": "combos",
+      "description": "Moonglet is a fluffy pancake made from split moong beans  and topped with vegetables, seasoning",
+      "price": 198,
+      "tags": [
+        "cheese",
+        "moonglet",
+        "with",
+        "greem",
+        "chutney"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 166
+    },
+    {
+      "name": "Fried Papad",
+      "slug": "fried-papad",
+      "category_slug": "combos",
+      "description": "From Hariyali Rasoi on Swiggy (Combos).",
+      "price": 45,
+      "tags": [
+        "fried",
+        "papad"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 167,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/1/27/8bd59108-f720-4eda-8ce8-855c07c64aac_5045d607-d61b-4f11-8bcc-7e3e14b1b078.JPG"
+    },
+    {
+      "name": "Garlic Laccha Paratha",
+      "slug": "garlic-laccha-paratha",
+      "category_slug": "combos",
+      "description": "From Hariyali Rasoi on Swiggy (Combos).",
+      "price": 70,
+      "tags": [
+        "garlic",
+        "laccha",
+        "paratha"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 168
+    },
+    {
+      "name": "Maggie Sandwhich (2pcs)",
+      "slug": "maggie-sandwhich-2pcs",
+      "category_slug": "combos",
+      "description": "A Maggi sandwich is a delicious, crispy bread filled with spicy, flavorful Maggi noodles, creating a savory fusion treat.",
+      "price": 170,
+      "tags": [
+        "maggie",
+        "sandwhich"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 169
+    },
+    {
+      "name": "Roasted Salted Makhana",
+      "slug": "roasted-salted-makhana",
+      "category_slug": "combos",
+      "description": "From Hariyali Rasoi on Swiggy (Combos).",
+      "price": 180,
+      "tags": [
+        "roasted",
+        "salted",
+        "makhana"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 170
+    },
+    {
+      "name": "Sabudana Khichdi With Curd",
+      "slug": "sabudana-khichdi-with-curd",
+      "category_slug": "combos",
+      "description": "From Hariyali Rasoi on Swiggy (Combos).",
+      "price": 219,
+      "tags": [
+        "sabudana",
+        "khichdi",
+        "with",
+        "curd"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 171,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/7965be7c-8612-43fc-a828-0056a7baf42c_c66fe1b5-58e6-4bda-bd31-605c1c685cb7.jpg"
+    },
+    {
+      "name": "Rajasthani Dal Paratha With Lasoon Chutney[2 pcs]",
+      "slug": "rajasthani-dal-paratha-with-lasoon-chutney-2-pcs",
+      "category_slug": "roti-paratha",
+      "description": "Rajasthan Paratha is a traditional Indian flatbread, typically made with whole wheat flour, moong dal, ghee, and various spices, giving it a rich and savory flavor.",
+      "price": 160,
+      "tags": [
+        "rajasthani",
+        "dal",
+        "paratha",
+        "with",
+        "lasoon",
+        "chutney"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 172,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/29/b3f4d7c3-d2d8-4a3a-869e-2e4407080250_9b7b2aa1-3013-49ba-b495-675b8e83d380.jpg"
+    },
+    {
+      "name": "Hariyali Rasoi Spl Thali",
+      "slug": "hariyali-rasoi-spl-thali",
+      "category_slug": "thali",
+      "description": "Veg Fried Rice + Dal Fry/Dal makhani+ Paneer Sabji + Veg Sabji + Plain Paratha-2pcs + Raita + Salad + Papad",
+      "price": 295,
+      "tags": [
+        "hariyali",
+        "rasoi",
+        "spl",
+        "thali"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 173,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/128287d2b104bb8162451cd00e7e2859"
+    },
+    {
+      "name": "Roti Wali Tali",
+      "slug": "roti-wali-tali",
+      "category_slug": "thali",
+      "description": "(4 pcs ghee roti + Yellow dal +Seasonal vegetable(as per availability)+Salad +Pickle+Fryums",
+      "price": 180,
+      "tags": [
+        "roti",
+        "wali",
+        "tali"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 174
+    },
+    {
+      "name": "Royal Thali",
+      "slug": "royal-thali",
+      "category_slug": "thali",
+      "description": "2 Pcs Aloo paratha + Veg pulao + Dal tadka/Dal Makhni/Kadhi(as per availability) + Panner sabzi + Veg seasonal sabzi + Dahi Vada + Sweet + Pickle + Salad + Fryums)",
+      "price": 389,
+      "tags": [
+        "royal",
+        "thali"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 175,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/2/2/a763995d-f2bc-4035-b8a2-f2c1c26fe06f_18bc3d62-c016-4afa-a44e-2683506a4ba7.jpg"
+    },
+    {
+      "name": "Moong Dal Bhajia With Green Chatni",
+      "slug": "moong-dal-bhajia-with-green-chatni",
+      "category_slug": "evening-snacks-chaat",
+      "description": "From Hariyali Rasoi on Swiggy (Evening Snacks & Chaat).",
+      "price": 160,
+      "tags": [
+        "moong",
+        "dal",
+        "bhajia",
+        "with",
+        "green",
+        "chatni"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 176,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c948a91816a164e5a7cfd11e8cdd0a62"
+    },
+    {
+      "name": "Aloo Bonda With Chutney 2pc",
+      "slug": "aloo-bonda-with-chutney-2pc",
+      "category_slug": "evening-snacks-chaat",
+      "description": "Aloo Bonda to be one of  favorite potato evening snacks. Hence, also referred to as potato bonda, it is nothing but super yummy snack of spiced mashed potatoes, formed into a ball, covered in a gram flour or chickpea flour (besan) batter and deep-fried to perfection.",
+      "price": 70,
+      "tags": [
+        "aloo",
+        "bonda",
+        "with",
+        "chutney",
+        "2pc"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 177,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0e7ec3e9d4c9a5f5e8075a81f1cb2a14"
+    },
+    {
+      "name": "French Fries",
+      "slug": "french-fries",
+      "category_slug": "evening-snacks-chaat",
+      "description": "From Hariyali Rasoi on Swiggy (Evening Snacks & Chaat).",
+      "price": 185,
+      "tags": [
+        "french",
+        "fries"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 178,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/56652380cbf20e014598b08ff42cacc0"
+    },
+    {
+      "name": "Bread Chop(4 Pcs)",
+      "slug": "bread-chop-4-pcs",
+      "category_slug": "evening-snacks-chaat",
+      "description": "From Hariyali Rasoi on Swiggy (Evening Snacks & Chaat).",
+      "price": 145,
+      "tags": [
+        "bread",
+        "chop"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 179
+    },
+    {
+      "name": "Kolkata's Dal Bhaat + Aloo Bhaja + Salad + Raita + Papad",
+      "slug": "kolkata-s-dal-bhaat-aloo-bhaja-salad-raita-papad",
+      "category_slug": "combos",
+      "description": "From Hariyali Rasoi on Swiggy (Combos).",
+      "price": 228,
+      "tags": [
+        "kolkata",
+        "dal",
+        "bhaat",
+        "aloo",
+        "bhaja",
+        "salad",
+        "raita",
+        "papad"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 180
+    },
+    {
+      "name": "Wheat Poori Combo",
+      "slug": "wheat-poori-combo",
+      "category_slug": "combos",
+      "description": "(Wheat puri 5 pcs + Aloo sabzi + Curd(100 ml) + Onion + Pickle)",
+      "price": 179,
+      "tags": [
+        "wheat",
+        "poori",
+        "combo"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 181
+    },
+    {
+      "name": "Chole Rice With Onion & Pickle",
+      "slug": "chole-rice-with-onion-pickle",
+      "category_slug": "combos",
+      "description": "From Hariyali Rasoi on Swiggy (Combos).",
+      "price": 250,
+      "tags": [
+        "chole",
+        "rice",
+        "with",
+        "onion",
+        "pickle"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 182
+    },
+    {
+      "name": "Plain Dosa (medium)",
+      "slug": "plain-dosa-medium",
+      "category_slug": "breakfast",
+      "description": "Medium Size Crispy Dosa,Delicious Low Fat Crispy Plain Dosa Served With Coconut Chutni & Mouth Watering Sambhar.",
+      "price": 115,
+      "tags": [
+        "plain",
+        "dosa",
+        "medium"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 183,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/2b5e9d84dd9f2ecd9d87aff6ae41cc83"
+    },
+    {
+      "name": "Kanda Poha",
+      "slug": "kanda-poha",
+      "category_slug": "breakfast",
+      "description": "From Hariyali Rasoi on Swiggy (Breakfast).",
+      "price": 140,
+      "tags": [
+        "kanda",
+        "poha"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 184,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/e705a5816f50dbbf1240655c81ed420e"
+    },
+    {
+      "name": "Mini Idli",
+      "slug": "mini-idli",
+      "category_slug": "breakfast",
+      "description": "From Hariyali Rasoi on Swiggy (Breakfast).",
+      "price": 150,
+      "tags": [
+        "mini",
+        "idli"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 185,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/90c1f689c15ec29d67f0eb5fb888ba2b"
+    },
+    {
+      "name": "Aata Ajwain Kachori",
+      "slug": "aata-ajwain-kachori",
+      "category_slug": "breakfast",
+      "description": "From Hariyali Rasoi on Swiggy (Breakfast).",
+      "price": 160,
+      "tags": [
+        "aata",
+        "ajwain",
+        "kachori"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 186,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/fb71af0aa1d0cbcb968dccbc224dd464"
+    },
+    {
+      "name": "Mattar Kachori With Sabji &pickle(5pc)",
+      "slug": "mattar-kachori-with-sabji-pickle-5pc",
+      "category_slug": "breakfast",
+      "description": "From Hariyali Rasoi on Swiggy (Breakfast).",
+      "price": 120,
+      "tags": [
+        "mattar",
+        "kachori",
+        "with",
+        "sabji",
+        "pickle"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 187
+    },
+    {
+      "name": "Aloo Chat",
+      "slug": "aloo-chat",
+      "category_slug": "evening-snacks-chaat",
+      "description": "From Hariyali Rasoi on Swiggy (Evening Snacks & Chaat).",
+      "price": 150,
+      "tags": [
+        "aloo",
+        "chat"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 188,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/732075c27f8efe15a8b89796b204e295"
+    },
+    {
+      "name": "Corn Chat",
+      "slug": "corn-chat",
+      "category_slug": "evening-snacks-chaat",
+      "description": "From Hariyali Rasoi on Swiggy (Evening Snacks & Chaat).",
+      "price": 125,
+      "tags": [
+        "corn",
+        "chat"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 189,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/3fe6ed203788b3eb7ec86e1ceec075c4"
+    },
+    {
+      "name": "Papri Chat",
+      "slug": "papri-chat",
+      "category_slug": "evening-snacks-chaat",
+      "description": "From Hariyali Rasoi on Swiggy (Evening Snacks & Chaat).",
+      "price": 110,
+      "tags": [
+        "papri",
+        "chat"
+      ],
+      "is_veg": true,
+      "is_available": true,
+      "is_out_of_stock": false,
+      "is_bestseller": false,
+      "is_new": false,
+      "is_todays_special": false,
+      "preparation_time": 30,
+      "display_order": 190,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/e65cad51bb1c06068b9a3a808ac78d94"
     }
   ]
 }

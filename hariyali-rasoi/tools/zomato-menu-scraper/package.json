@@ -1,0 +1,20 @@
+{
+  "name": "zomato-menu-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "description": "One-time Zomato menu scraper for Hariyali Rasoi migration",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "scrape:swiggy": "node scraper-swiggy.js",
+    "merge:swiggy": "node convert-swiggy-to-seed.mjs",
+    "merge:zomato": "node convert-to-seed.mjs",
+    "postinstall": "npx playwright install chromium"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}

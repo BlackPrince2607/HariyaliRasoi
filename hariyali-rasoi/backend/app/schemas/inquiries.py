@@ -1,6 +1,6 @@
 from pydantic import BaseModel, ConfigDict, field_validator
 from uuid import UUID
-from typing import Optional
+from typing import Optional, Literal
 from datetime import date, datetime
 import re
 
@@ -75,3 +75,8 @@ class CateringRequestOut(CateringRequestCreate):
     id: UUID
     status: str
     created_at: datetime
+
+
+class InquiryStatusUpdate(BaseModel):
+    status: Literal["new", "contacted", "confirmed", "closed"]
+    notes: Optional[str] = None

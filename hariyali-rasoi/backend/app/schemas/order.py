@@ -32,9 +32,14 @@ class OrderCreate(BaseModel):
     @classmethod
     def validate_phone(cls, v: str) -> str:
         cleaned = re.sub(r"\D", "", v)
-        if len(cleaned) not in (10, 12):
-            raise ValueError("Invalid Indian phone number")
-        return cleaned
+        # Common Indian formats: 09876543210 or 0XXXXXXXXXX
+        if len(cleaned) == 11 and cleaned.startswith("0"):
+            cleaned = cleaned[1:]
+        if len(cleaned) == 10:
+            return cleaned
+        if len(cleaned) == 12 and cleaned.startswith("91"):
+            return cleaned
+        raise ValueError("Invalid Indian phone number")
 
     @field_validator("payment_method")
     @classmethod

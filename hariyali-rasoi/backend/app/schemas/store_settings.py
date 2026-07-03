@@ -25,6 +25,7 @@ class StoreSettingsUpdate(BaseModel):
     upi_id: Optional[str] = None
     upi_qr_url: Optional[str] = None
     closed_message: Optional[str] = None
+    whatsapp_greeting: Optional[str] = None
 
 
 class StoreSettingsOut(BaseModel):
@@ -49,6 +50,7 @@ class StoreSettingsOut(BaseModel):
     upi_id: Optional[str]
     upi_qr_url: Optional[str]
     closed_message: str
+    whatsapp_greeting: Optional[str] = None
     updated_at: Optional[datetime]
 
 

@@ -12,7 +12,7 @@ cp .env.example .env
 python scripts/hash_password.py yourpassword
 alembic upgrade head
 python scripts/import_menu.py --replace   # load Hariyali Rasoi production menu
-uvicorn app.main:app --reload
+uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 ## Menu Seed & Import

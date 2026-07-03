@@ -38,18 +38,27 @@ async def create_order(db: AsyncSession, data: OrderCreate) -> Order:
         raise HTTPException(status_code=400, detail="Order must contain at least one item")
 
     menu_item_ids = [item.menu_item_id for item in data.items]
-    result = await db.execute(
-        select(MenuItem).where(MenuItem.id.in_(menu_item_ids), MenuItem.is_available == True)  # noqa: E712
-    )
-    menu_items = {item.id: item for item in result.scalars().all()}
+    result = await db.execute(select(MenuItem).where(MenuItem.id.in_(menu_item_ids)))
+    all_menu_items = {item.id: item for item in result.scalars().all()}
 
     order_items_data = []
     subtotal = Decimal("0")
 
     for item in data.items:
-        menu_item = menu_items.get(item.menu_item_id)
+        menu_item = all_menu_items.get(item.menu_item_id)
         if not menu_item:
-            raise HTTPException(status_code=400, detail=f"Menu item {item.menu_item_id} not available")
+            raise HTTPException(
+                status_code=400,
+                detail=(
+                    "Some items in your cart are outdated. "
+                    "Please clear your cart and add items from the menu again."
+                ),
+            )
+        if not menu_item.is_available:
+            raise HTTPException(
+                status_code=400,
+                detail=f"{menu_item.name} is no longer available. Please remove it from your cart.",
+            )
         if menu_item.is_out_of_stock:
             raise HTTPException(status_code=400, detail=f"{menu_item.name} is out of stock")
 
@@ -121,5 +130,25 @@ async def create_order(db: AsyncSession, data: OrderCreate) -> Order:
 async def get_order_by_id(db: AsyncSession, order_id: UUID) -> Order | None:
     result = await db.execute(
         select(Order).options(selectinload(Order.items)).where(Order.id == order_id)
+    )
+    return result.scalar_one_or_none()
+
+
+async def get_order_by_number_and_phone(
+    db: AsyncSession, order_number: str, customer_phone: str
+) -> Order | None:
+    phone_variants = {customer_phone}
+    if len(customer_phone) == 10:
+        phone_variants.add(f"91{customer_phone}")
+    elif len(customer_phone) == 12 and customer_phone.startswith("91"):
+        phone_variants.add(customer_phone[2:])
+
+    result = await db.execute(
+        select(Order)
+        .options(selectinload(Order.items))
+        .where(
+            Order.order_number == order_number,
+            Order.customer_phone.in_(phone_variants),
+        )
     )
     return result.scalar_one_or_none()

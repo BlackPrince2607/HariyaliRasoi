@@ -28,4 +28,7 @@ class StoreSettings(Base):
     upi_id = Column(String)
     upi_qr_url = Column(String)
     closed_message = Column(String, default="We are currently not accepting orders.")
+    whatsapp_greeting = Column(
+        String, default="Hi! I'd like to place an order from Hariyali Rasoi. 🌿"
+    )
     updated_at = Column(DateTime(timezone=True), onupdate=func.now())

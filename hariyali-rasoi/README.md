@@ -90,6 +90,8 @@ docker compose up
 
 ## Deployment
 
+See **[DEPLOY.md](./DEPLOY.md)** for full production setup (Vercel + Railway + Supabase + GoDaddy DNS).
+
 | Service | Platform |
 |---------|----------|
 | Frontend | Vercel — set `NEXT_PUBLIC_API_URL` |

@@ -92,6 +92,7 @@ async def import_menu_seed(
 
     items_created = 0
     items_updated = 0
+    images_created = 0
     for item_data in data.get("items", []):
         category_slug = item_data.get("category_slug")
         category_id = None
@@ -127,10 +128,31 @@ async def import_menu_seed(
         if existing_item:
             for key, value in fields.items():
                 setattr(existing_item, key, value)
+            menu_item = existing_item
             items_updated += 1
         else:
-            db.add(MenuItem(**fields))
+            menu_item = MenuItem(**fields)
+            db.add(menu_item)
             items_created += 1
+
+        await db.flush()
+
+        image_url = item_data.get("image_url")
+        if image_url:
+            existing_images = await db.execute(
+                select(MenuImage).where(MenuImage.menu_item_id == menu_item.id)
+            )
+            for img in existing_images.scalars().all():
+                await db.delete(img)
+            db.add(
+                MenuImage(
+                    menu_item_id=menu_item.id,
+                    url=image_url,
+                    is_primary=True,
+                    display_order=0,
+                )
+            )
+            images_created += 1
 
     await db.commit()
     return {
@@ -138,5 +160,6 @@ async def import_menu_seed(
         "categories_updated": categories_updated,
         "items_created": items_created,
         "items_updated": items_updated,
+        "images_created": images_created,
         "total_items": len(data.get("items", [])),
     }

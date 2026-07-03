@@ -1,0 +1,32 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+!**/.env.local.example
+!**/.env.production.example
+
+# Python
+**/__pycache__/
+*.pyc
+.pytest_cache/
+backend/venv/
+hariyali-rasoi/backend/venv/
+
+# Node
+node_modules/
+.next/
+out/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Deploy
+.vercel/
+
+# Logs & temp
+*.log
+_out.txt

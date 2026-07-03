@@ -1,7 +1,8 @@
-from fastapi import APIRouter, Depends, UploadFile, File, Form
+from fastapi import APIRouter, Depends, File, Form, UploadFile
+
 from app.dependencies import get_current_admin
 from app.schemas.auth import AdminUser
-from app.services.upload_service import validate_image, upload_to_supabase
+from app.services.upload_service import upload_to_supabase, validate_image
 
 router = APIRouter()
 
@@ -18,14 +19,5 @@ async def upload_image(
     content = await validate_image(file)
     url = await upload_to_supabase(
         content, bucket, file.filename or "image.jpg", file.content_type or "image/jpeg"
-    )
-    return {"url": url}
-
-
-@router.post("/payment")
-async def upload_payment(file: UploadFile = File(...)):
-    content = await validate_image(file)
-    url = await upload_to_supabase(
-        content, "payments", file.filename or "payment.jpg", file.content_type or "image/jpeg"
     )
     return {"url": url}

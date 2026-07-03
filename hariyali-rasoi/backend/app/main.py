@@ -2,7 +2,8 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.startup import seed_menu_if_empty
+from app.config import settings as app_settings
+from app.startup import seed_menu_if_empty, sync_store_contact_from_env
 from app.routers import (
     auth,
     menu,
@@ -21,14 +22,26 @@ from app.routers import (
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     await seed_menu_if_empty()
+    await sync_store_contact_from_env()
     yield
 
 
-app = FastAPI(title="Hariyali Rasoi API", version="1.0.0", lifespan=lifespan)
+app = FastAPI(
+    title="Hariyali Rasoi API",
+    version="1.0.0",
+    lifespan=lifespan,
+    docs_url=None if app_settings.is_production else "/docs",
+    redoc_url=None if app_settings.is_production else "/redoc",
+    openapi_url=None if app_settings.is_production else "/openapi.json",
+)
+
+# Fixed origins + regex for LAN dev (phone at http://192.168.x.x:3000)
+_LAN_ORIGIN_REGEX = r"https?://(localhost|127\.0\.0\.1|192\.168\.\d{1,3}\.\d{1,3}|10\.\d{1,3}\.\d{1,3}\.\d{1,3})(:\d+)?$"
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "https://hariyalirasoi.vercel.app"],
+    allow_origins=app_settings.cors_origin_list,
+    allow_origin_regex=_LAN_ORIGIN_REGEX,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
