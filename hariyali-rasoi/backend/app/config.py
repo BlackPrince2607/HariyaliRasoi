@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     supabase_service_key: str
     whatsapp_number: str
     app_url: str = "http://localhost:8000"
-    cors_origins: str = "http://localhost:3000,https://hariyalirasoi.vercel.app"
+    cors_origins: str = "http://localhost:3000,https://hariyalirasoi.vercel.app,https://hariyalirasoi.com,https://www.hariyalirasoi.com"
     environment: str = "development"
 
     class Config:

@@ -8,7 +8,7 @@ import { MenuGrid } from "@/components/public/MenuGrid";
 import { SectionHeader } from "@/components/public/SectionHeader";
 import { SkeletonGrid } from "@/components/ui/skeleton";
 import { EmptyState } from "@/components/ui/empty-state";
-import { getApiBaseUrl } from "@/lib/api/base-url";
+import { getApiDisplayUrl } from "@/lib/api/base-url";
 import { useMenuPageStore } from "@/store/menuPageStore";
 
 export default function MenuPage() {
@@ -49,7 +49,7 @@ export default function MenuPage() {
       .catch(() => {
         setItems([]);
         setError(
-          `Could not load the menu. Ensure the API is running at ${getApiBaseUrl()} and reachable from this device.`
+          `Could not load the menu. Ensure the API is running at ${getApiDisplayUrl()} and reachable from this device.`
         );
       })
       .finally(() => setLoading(false));

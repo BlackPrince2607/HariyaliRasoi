@@ -118,7 +118,7 @@ Open http://localhost:3000
 | Problem | Fix |
 |---------|-----|
 | Menu empty / API errors | Check `NEXT_PUBLIC_API_URL` and `CORS_ORIGINS` |
-| CORS error in browser | Add exact frontend URL to `CORS_ORIGINS` |
+| CORS error in browser | Add exact frontend URLs to `CORS_ORIGINS` on Railway, or redeploy frontend (uses `/api` proxy) |
 | WhatsApp wrong number | Admin → Settings + `NEXT_PUBLIC_WHATSAPP_NUMBER` |
 | Images not loading | Create Supabase buckets; check bucket is public |
 | Order "menu not available" | Clear cart; re-add items after menu import |
