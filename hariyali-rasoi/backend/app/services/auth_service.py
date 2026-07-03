@@ -26,6 +26,6 @@ def create_access_token(data: dict) -> str:
 def authenticate_admin(email: str, password: str) -> str | None:
     if email != settings.admin_email:
         return None
-    if not verify_password(password, settings.admin_password):
+    if not verify_password(password, settings.resolved_admin_password_hash):
         return None
     return create_access_token({"sub": email})

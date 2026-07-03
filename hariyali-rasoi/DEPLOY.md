@@ -41,6 +41,7 @@ alembic upgrade head
 | `SECRET_KEY` | Random 32+ char string |
 | `ADMIN_EMAIL` | your admin email |
 | `ADMIN_PASSWORD` | bcrypt hash from `python scripts/hash_password.py` |
+| `ADMIN_PASSWORD_B64` | (optional) base64 of bcrypt hash if Railway corrupts `$` in `ADMIN_PASSWORD` |
 | `SUPABASE_URL` | https://xxx.supabase.co |
 | `SUPABASE_SERVICE_KEY` | service role key |
 | `WHATSAPP_NUMBER` | 917439890089 |
@@ -50,6 +51,15 @@ alembic upgrade head
 
 4. **Settings → Networking → Custom Domain** → `api.yourdomain.com`
 5. Verify: `https://api.yourdomain.com/health` → `{"status":"ok"}`
+
+**Admin login on Railway:** `ADMIN_PASSWORD` must be the **bcrypt hash**, not your plain password.
+Generate locally: `python scripts/hash_password.py YourPassword`
+
+If login fails after setting the hash, Railway may be corrupting `$` characters. Use base64 instead:
+```bash
+python scripts/encode_password_b64.py '$2b$12$...your-hash...'
+```
+Set `ADMIN_PASSWORD_B64` to the output and remove/clear `ADMIN_PASSWORD`, then redeploy.
 
 ---
 
