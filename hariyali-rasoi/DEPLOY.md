@@ -158,6 +158,8 @@ Open http://localhost:3000
 |---------|-----|
 | Free tier “waking up” | First request after sleep is slow; hit `/health` and wait |
 | Backend deploy failed / health timeout | Check `DATABASE_URL` (`asyncpg` + `ssl=require`). First menu seed can take a few minutes |
+| `tenant/user postgres.xxx not found` | Supabase project is **paused/deleted**, or pooler host/username is wrong. In dashboard: **Resume** project → **Connect** → Session pooler → copy URI. User must be `postgres.<project-ref>`, host must match the dashboard (often `aws-1-…` not `aws-0-…`). Convert scheme to `postgresql+asyncpg://` and keep `?ssl=require`. Redeploy. |
+| `ADMIN_PASSWORD is not set` | Set `ADMIN_PASSWORD_B64` on the API service (see above), then redeploy |
 | Admin login fails | Use `ADMIN_PASSWORD_B64`; hash from `scripts/hash_password.py` |
 | Menu empty / API errors | Confirm API is awake; check `API_INTERNAL_URL` / `NEXT_PUBLIC_API_URL` |
 | CORS error | Add exact frontend origin to `CORS_ORIGINS`, redeploy API |
