@@ -25,6 +25,10 @@ export async function deleteMenuItem(id: string) {
   await api.delete(`/api/menu/${id}`);
 }
 
+export async function deleteMenuImage(itemId: string, imageId: string) {
+  await api.delete(`/api/menu/${itemId}/images/${imageId}`);
+}
+
 export async function toggleMenuItem(id: string) {
   const { data } = await api.patch<MenuItem>(`/api/menu/${id}/toggle`);
   return data;

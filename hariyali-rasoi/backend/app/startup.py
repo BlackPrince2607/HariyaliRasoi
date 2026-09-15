@@ -50,3 +50,24 @@ async def sync_store_contact_from_env() -> None:
         store.whatsapp = settings.whatsapp_number
         await db.commit()
         logger.info("Store WhatsApp synced from WHATSAPP_NUMBER env")
+
+
+async def ensure_store_hours() -> None:
+    """Keep public hours at 8 AM – 10 PM when still on legacy defaults."""
+    from datetime import time as dt_time
+
+    async with AsyncSessionLocal() as db:
+        result = await db.execute(select(StoreSettings).limit(1))
+        store = result.scalar_one_or_none()
+        if not store:
+            return
+
+        legacy_open = store.opening_time in (None, dt_time(9, 0))
+        legacy_close = store.closing_time in (None, dt_time(21, 0))
+        if not (legacy_open or legacy_close):
+            return
+
+        store.opening_time = dt_time(8, 0)
+        store.closing_time = dt_time(22, 0)
+        await db.commit()
+        logger.info("Store hours set to 08:00–22:00")

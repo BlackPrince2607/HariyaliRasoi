@@ -221,7 +221,10 @@ async def add_menu_image(
     db: AsyncSession = Depends(get_db),
     _: AdminUser = Depends(get_current_admin),
 ):
-    await _get_menu_item(db, item_id)
+    item = await _get_menu_item(db, item_id)
+    if data.is_primary:
+        for img in item.images:
+            img.is_primary = False
     image = MenuImage(menu_item_id=item_id, **data.model_dump())
     db.add(image)
     await db.commit()

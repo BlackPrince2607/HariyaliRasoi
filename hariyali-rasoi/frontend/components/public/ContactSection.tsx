@@ -1,10 +1,12 @@
 "use client";
 
 import { useStore } from "@/lib/hooks/useStore";
+import { formatStoreHours } from "@/lib/utils/hours";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export function ContactSection() {
   const { settings } = useStore();
+  const hoursLabel = formatStoreHours(settings?.opening_time, settings?.closing_time);
 
   return (
     <section className="px-4 py-12">
@@ -46,17 +48,15 @@ export function ContactSection() {
                 </div>
               </div>
             )}
-            {settings?.opening_time && (
-              <div className="flex gap-3">
-                <Clock className="h-5 w-5 shrink-0 text-brand-saffron" />
-                <div>
-                  <p className="font-medium">Hours</p>
-                  <p className="text-sm text-brand-charcoal/70">
-                    {settings.opening_time} – {settings.closing_time}
-                  </p>
-                </div>
+            <div className="flex gap-3">
+              <Clock className="h-5 w-5 shrink-0 text-brand-saffron" />
+              <div>
+                <p className="font-medium">Hours</p>
+                <p className="text-sm text-brand-charcoal/70">
+                  {hoursLabel || "8:00 AM – 10:00 PM"}
+                </p>
               </div>
-            )}
+            </div>
           </div>
           {settings?.google_maps_url && (
             <iframe

@@ -1,0 +1,51 @@
+# Render Blueprint (repo root = D:/HR)
+# Alternative: use hariyali-rasoi/render.yaml and set Blueprint Root Directory to hariyali-rasoi
+
+services:
+  - type: web
+    name: hariyali-rasoi-api
+    runtime: docker
+    rootDir: hariyali-rasoi/backend
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: ALGORITHM
+        value: HS256
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "1440"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD_B64
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
+      - key: WHATSAPP_NUMBER
+        sync: false
+      - key: APP_URL
+        sync: false
+      - key: CORS_ORIGINS
+        sync: false
+
+  - type: web
+    name: hariyali-rasoi-web
+    runtime: docker
+    rootDir: hariyali-rasoi/frontend
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        sync: false
+      - key: API_INTERNAL_URL
+        sync: false
+      - key: NEXT_PUBLIC_APP_URL
+        sync: false
+      - key: NEXT_PUBLIC_WHATSAPP_NUMBER
+        sync: false

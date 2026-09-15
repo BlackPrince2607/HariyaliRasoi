@@ -3,19 +3,23 @@ import { ArrowRight } from "lucide-react";
 import { LeafMotif } from "@/components/ui/motifs";
 import { DishImage } from "@/components/ui/dish-image";
 
-const stats = [
-  { value: "121+", label: "Homestyle dishes" },
-  { value: "16", label: "Menu categories" },
-  { value: "100%", label: "Vegetarian kitchen" },
-];
+interface HeroProps {
+  imageUrl?: string | null;
+  dishCount?: number;
+  categoryCount?: number;
+}
 
-const trustPills = [
-  "🌿 100% Veg Options",
-  "🏠 Home Cooked",
-  "⚡ Fast Delivery",
-];
+export function Hero({ imageUrl, dishCount, categoryCount }: HeroProps) {
+  const stats = [
+    dishCount != null
+      ? { value: `${dishCount}+`, label: "Homestyle dishes" }
+      : null,
+    categoryCount != null
+      ? { value: String(categoryCount), label: "Menu categories" }
+      : null,
+    { value: "100%", label: "Vegetarian kitchen" },
+  ].filter(Boolean) as { value: string; label: string }[];
 
-export function Hero() {
   return (
     <section className="relative overflow-hidden mesh-warm min-h-[calc(100svh-4rem)] flex items-center px-4 py-16 md:py-20">
       {/* Ambient glows */}
@@ -73,7 +77,7 @@ export function Hero() {
 
             {/* Trust pills */}
             <div className="mt-5 flex flex-wrap items-center gap-1 text-xs text-brand-muted">
-              {trustPills.map((pill, i) => (
+              {["🌿 100% Veg Options", "🏠 Home Cooked", "⚡ Fast Delivery"].map((pill, i) => (
                 <span key={pill} className="flex items-center gap-1">
                   {i > 0 && <span className="text-brand-gold/60">·</span>}
                   {pill}
@@ -82,19 +86,21 @@ export function Hero() {
             </div>
 
             {/* Stats */}
-            <div className="mt-10 grid grid-cols-3 gap-4 border-t border-brand-gold/30 pt-8">
-              {stats.map((s) => (
-                <div key={s.label}>
-                  <p
-                    className="font-[family-name:var(--font-playfair)] font-bold text-brand-leaf"
-                    style={{ fontSize: "var(--text-hero)" }}
-                  >
-                    {s.value}
-                  </p>
-                  <p className="mt-0.5 text-xs text-brand-muted md:text-sm">{s.label}</p>
-                </div>
-              ))}
-            </div>
+            {stats.length > 0 && (
+              <div className="mt-10 grid grid-cols-3 gap-4 border-t border-brand-gold/30 pt-8">
+                {stats.map((s) => (
+                  <div key={s.label}>
+                    <p
+                      className="font-[family-name:var(--font-playfair)] font-bold text-brand-leaf"
+                      style={{ fontSize: "var(--text-hero)" }}
+                    >
+                      {s.value}
+                    </p>
+                    <p className="mt-0.5 text-xs text-brand-muted md:text-sm">{s.label}</p>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* ── Right column (desktop) ───────────────────────────────── */}
@@ -104,21 +110,24 @@ export function Hero() {
 
             {/* Organic blob image frame */}
             <div
-              className="relative w-full max-w-md aspect-square overflow-hidden animate-float"
+              className="relative w-full max-w-md aspect-square overflow-hidden animate-float bg-brand-cream"
               style={{ borderRadius: "60% 40% 30% 70% / 60% 30% 70% 40%" }}
             >
               <DishImage
-                src={null}
+                src={imageUrl}
                 alt="Hariyali Rasoi food"
                 fallbackEmoji="🍛"
-                className="h-full w-full object-cover"
+                className="object-cover"
+                sizes="(max-width: 1024px) 0vw, 420px"
               />
             </div>
 
             {/* Floating badge */}
             <div className="card-warm absolute -bottom-2 left-4 rounded-2xl px-4 py-3 shadow-[var(--shadow-elevated)]">
-              <p className="font-hand text-lg text-brand-saffron">121+ Dishes 🌿</p>
-              <p className="text-xs text-brand-muted">fresh every day</p>
+              <p className="font-hand text-lg text-brand-saffron">
+                {dishCount != null ? `${dishCount}+ Dishes 🌿` : "Fresh daily 🌿"}
+              </p>
+              <p className="text-xs text-brand-muted">cooked with love</p>
             </div>
           </div>
 

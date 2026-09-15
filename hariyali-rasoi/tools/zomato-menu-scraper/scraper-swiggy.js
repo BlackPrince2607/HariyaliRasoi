@@ -23,6 +23,10 @@ const SWIGGY_URL =
   process.env.SWIGGY_URL ||
   "https://www.swiggy.com/city/kolkata/hariyali-rasoi-rajarhat-bishnupur-chinar-park-rest645341";
 
+/** Chinar Park, Kolkata — required for full menu when restaurant is open. */
+const SWIGGY_LAT = process.env.SWIGGY_LAT || "22.6197";
+const SWIGGY_LNG = process.env.SWIGGY_LNG || "88.4319";
+
 const OUTPUT_DIR = path.join(ROOT_DIR, "output");
 const RAW_PATH = path.join(OUTPUT_DIR, "raw-swiggy-response.json");
 const MENU_PATH = path.join(OUTPUT_DIR, "swiggy-menu.json");
@@ -42,6 +46,8 @@ async function launchStealthBrowser() {
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
     locale: "en-IN",
     timezoneId: "Asia/Kolkata",
+    geolocation: { latitude: Number(SWIGGY_LAT), longitude: Number(SWIGGY_LNG) },
+    permissions: ["geolocation"],
     extraHTTPHeaders: { "Accept-Language": "en-IN,en;q=0.9" },
   });
   await context.addInitScript(() => {

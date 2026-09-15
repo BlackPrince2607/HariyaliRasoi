@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { toTimeInputValue } from "@/lib/utils/hours";
 import { toast } from "sonner";
 
 export default function AdminSettingsPage() {
@@ -24,6 +25,7 @@ export default function AdminSettingsPage() {
     try {
       const updated = await updateStoreSettings(form);
       setSettings(updated);
+      setForm(updated);
       toast.success("Settings saved");
     } catch {
       toast.error("Failed to save settings");
@@ -58,6 +60,26 @@ export default function AdminSettingsPage() {
             )}
           </div>
         ))}
+        <div className="grid grid-cols-2 gap-4">
+          <div>
+            <Label>Opening time</Label>
+            <Input
+              type="time"
+              value={toTimeInputValue(form.opening_time as string | undefined) || "08:00"}
+              onChange={(e) => setForm({ ...form, opening_time: e.target.value })}
+              className="mt-1"
+            />
+          </div>
+          <div>
+            <Label>Closing time</Label>
+            <Input
+              type="time"
+              value={toTimeInputValue(form.closing_time as string | undefined) || "22:00"}
+              onChange={(e) => setForm({ ...form, closing_time: e.target.value })}
+              className="mt-1"
+            />
+          </div>
+        </div>
         <div className="grid grid-cols-3 gap-4">
           {(["delivery_fee", "free_delivery_threshold", "min_order_amount"] as const).map((field) => (
             <div key={field}>

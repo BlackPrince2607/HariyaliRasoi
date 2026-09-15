@@ -1,115 +1,144 @@
-# Hariyali Rasoi — Production Deployment Guide
+# Hariyali Rasoi — Render Deployment Guide
 
-Deploy the **frontend** (Next.js), **backend** (FastAPI), and **database/storage** (Supabase). Your GoDaddy domain points DNS to Vercel + Railway.
+Deploy **frontend** (Next.js) and **backend** (FastAPI) as two Render web services.
+Keep **database + storage** on Supabase.
 
 ## Architecture
 
 ```
-yourdomain.com          → Vercel (frontend)
-www.yourdomain.com      → Vercel
-api.yourdomain.com      → Railway (backend API)
+yourdomain.com          → Render (frontend / Next.js)
+www.yourdomain.com      → Render (frontend)
+api.yourdomain.com      → Render (backend / FastAPI)
 Database + file storage → Supabase
 ```
 
+Free web services **sleep after ~15 minutes** of idle traffic; the first request can take 30–60s (cold start).
+
 ---
 
-## 1. Supabase (do this first)
+## Option A — Blueprint (recommended)
+
+1. Push this repo to GitHub
+2. [Render Dashboard](https://dashboard.render.com) → **New** → **Blueprint**
+3. Select the repo  
+   - Repo root is `HR` → uses root `render.yaml` (paths already include `hariyali-rasoi/…`)  
+   - Or set Root Directory to `hariyali-rasoi` and use `hariyali-rasoi/render.yaml`
+4. Fill in the **sync: false** env vars (see tables below), then apply
+5. After both services have public URLs, set cross-service URLs and **redeploy**
+
+---
+
+## Option B — Manual services
+
+### 1. Supabase (do this first)
 
 1. Create a project at [supabase.com](https://supabase.com)
-2. **Database** → Connection string → Session pooler → copy URL  
-   Use format: `postgresql+asyncpg://postgres.PROJECT:PASSWORD@aws-1-REGION.pooler.supabase.com:5432/postgres?ssl=require`
-3. **Storage** → Create buckets: `menu`, `banners`, `gallery`, `upi`, `payments` (all public read for images)
-4. Copy **Project URL** and **service_role key** (Settings → API)
+2. **Database** → Connect → **Session pooler** → copy URI  
+   Convert to:
+   `postgresql+asyncpg://postgres.PROJECT:PASSWORD@aws-1-REGION.pooler.supabase.com:5432/postgres?ssl=require`
+3. **Storage** → Create public buckets: `menu`, `banners`, `gallery`, `upi`, `payments`
+4. Copy **Project URL** and **service_role** key
 
-Run migrations locally against production DB once:
+Migrations run automatically on backend start (`alembic upgrade head`).
+
+### 2. Backend (Web Service)
+
+1. **New** → **Web Service** → connect GitHub repo
+2. Settings:
+
+| Field | Value |
+|-------|--------|
+| Root Directory | `hariyali-rasoi/backend` |
+| Runtime | **Docker** |
+| Dockerfile Path | `./Dockerfile` (default) |
+| Instance type | Free |
+| Health Check Path | `/health` |
+
+3. **Environment** → add:
+
+| Variable | Example / notes |
+|----------|-----------------|
+| `DATABASE_URL` | Supabase pooler URL (`postgresql+asyncpg://` + `?ssl=require`) |
+| `SECRET_KEY` | Random 32+ character string (or use Generate) |
+| `ALGORITHM` | `HS256` |
+| `ACCESS_TOKEN_EXPIRE_MINUTES` | `1440` |
+| `ADMIN_EMAIL` | your admin email |
+| `ADMIN_PASSWORD_B64` | **Preferred** — see below |
+| `SUPABASE_URL` | `https://xxx.supabase.co` |
+| `SUPABASE_SERVICE_KEY` | service role key |
+| `WHATSAPP_NUMBER` | `917439890089` |
+| `ENVIRONMENT` | `production` |
+| `APP_URL` | `https://hariyali-rasoi-api.onrender.com` (update after first deploy) |
+| `CORS_ORIGINS` | Frontend URL(s), comma-separated |
+
+4. Deploy → open `https://<api-service>.onrender.com/health` → `{"status":"ok"}`
+
+### Admin password on Render
+
+Use a **bcrypt hash**, not the plain password. `$` in env values can break hashes — prefer base64:
+
 ```bash
 cd backend
-alembic upgrade head
+python scripts/hash_password.py YourPassword
+python scripts/encode_password_b64.py '$2b$12$...paste-hash...'
 ```
 
----
+Set **`ADMIN_PASSWORD_B64`** and leave `ADMIN_PASSWORD` empty.
 
-## 2. Backend (Railway)
+### 3. Frontend (Web Service)
 
-1. New project → Deploy from GitHub → set **Root Directory** to `hariyali-rasoi/backend`
-2. Railway detects `Dockerfile` and `railway.toml`
-3. Add environment variables:
+1. **New** → **Web Service** → same repo
+2. Settings:
 
-| Variable | Example |
-|----------|---------|
-| `DATABASE_URL` | Supabase pooler URL |
-| `SECRET_KEY` | Random 32+ char string |
-| `ADMIN_EMAIL` | your admin email |
-| `ADMIN_PASSWORD` | bcrypt hash from `python scripts/hash_password.py` |
-| `ADMIN_PASSWORD_B64` | (optional) base64 of bcrypt hash if Railway corrupts `$` in `ADMIN_PASSWORD` |
-| `SUPABASE_URL` | https://xxx.supabase.co |
-| `SUPABASE_SERVICE_KEY` | service role key |
-| `WHATSAPP_NUMBER` | 917439890089 |
-| `ENVIRONMENT` | **production** |
-| `APP_URL` | https://api.yourdomain.com |
-| `CORS_ORIGINS` | https://yourdomain.com,https://www.yourdomain.com |
+| Field | Value |
+|-------|--------|
+| Root Directory | `hariyali-rasoi/frontend` |
+| Runtime | **Docker** |
+| Health Check Path | `/` |
+| Instance type | Free |
 
-4. **Settings → Networking → Custom Domain** → `api.yourdomain.com`
-5. Verify: `https://api.yourdomain.com/health` → `{"status":"ok"}`
-
-**Admin login on Railway:** `ADMIN_PASSWORD` must be the **bcrypt hash**, not your plain password.
-Generate locally: `python scripts/hash_password.py YourPassword`
-
-If login fails after setting the hash, Railway may be corrupting `$` characters. Use base64 instead:
-```bash
-python scripts/encode_password_b64.py '$2b$12$...your-hash...'
-```
-Set `ADMIN_PASSWORD_B64` to the output and remove/clear `ADMIN_PASSWORD`, then redeploy.
-
----
-
-## 3. Frontend (Vercel)
-
-1. Import repo → **Root Directory:** `hariyali-rasoi/frontend`
-2. Environment variables:
+3. **Environment** (set **before** build — `NEXT_PUBLIC_*` are baked in at image build):
 
 | Variable | Value |
 |----------|-------|
-| `NEXT_PUBLIC_API_URL` | https://api.yourdomain.com |
-| `API_INTERNAL_URL` | https://api.yourdomain.com |
-| `NEXT_PUBLIC_WHATSAPP_NUMBER` | 917439890089 |
-| `NEXT_PUBLIC_APP_URL` | https://yourdomain.com |
+| `NEXT_PUBLIC_API_URL` | `https://hariyali-rasoi-api.onrender.com` |
+| `API_INTERNAL_URL` | Same as above (Next.js `/api` rewrite target) |
+| `NEXT_PUBLIC_APP_URL` | `https://hariyali-rasoi-web.onrender.com` |
+| `NEXT_PUBLIC_WHATSAPP_NUMBER` | `917439890089` |
 
-3. **Domains** → Add `yourdomain.com` and `www.yourdomain.com`
+4. Deploy → open the frontend URL
+5. Update backend `CORS_ORIGINS` with the frontend URL (and custom domain if any), then **Manual Deploy** the API
+
+Browser calls stay same-origin (`/api/*`); the Next server rewrites to the API.
 
 ---
 
-## 4. GoDaddy DNS
+## Custom domain
 
-In GoDaddy → DNS Management:
+In each Render service → **Settings → Custom Domains**, then point DNS:
 
 | Type | Name | Value |
 |------|------|--------|
-| CNAME | `api` | Railway hostname (from Railway dashboard) |
-| A or CNAME | `@` | Vercel records (from Vercel domain setup) |
-| CNAME | `www` | `cname.vercel-dns.com` (or Vercel instructions) |
+| CNAME | `api` | Backend `.onrender.com` hostname |
+| CNAME | `www` | Frontend `.onrender.com` hostname |
+| A / ALIAS | `@` | Per Render custom-domain docs |
 
-**Tip:** Easiest option is to point GoDaddy nameservers to Vercel for the main domain.
-
-Wait 15 min–24 hrs for DNS propagation.
+Then set `APP_URL`, `NEXT_PUBLIC_APP_URL`, `NEXT_PUBLIC_API_URL`, `API_INTERNAL_URL`, and `CORS_ORIGINS` to the real domains and **redeploy both** (frontend must rebuild for `NEXT_PUBLIC_*`).
 
 ---
 
-## 5. Post-deploy checklist
+## Post-deploy checklist
 
-- [ ] Admin login: `https://yourdomain.com/auth/login`
-- [ ] **Admin → Settings:** store name, WhatsApp, UPI QR, address, delivery fees
-- [ ] **Admin → Menu:** verify items and images
-- [ ] Place test order (COD) on phone
-- [ ] WhatsApp opens with order details
-- [ ] Admin gets order alarm → Accept/Reject
-- [ ] Customer confirmation page shows status update
-- [ ] Change default admin password
-- [ ] `ENVIRONMENT=production` on backend (hides API docs)
+- [ ] `https://…api…/health` returns ok (wait through cold start on free tier)
+- [ ] Site loads; menu shows items (seeded when DB is empty)
+- [ ] Admin login at `/auth/login`
+- [ ] **Admin → Settings:** store name, WhatsApp, UPI QR, address, fees
+- [ ] Test COD order + WhatsApp share
+- [ ] `ENVIRONMENT=production` (API docs hidden)
 
 ---
 
-## 6. Local development
+## Local development
 
 ```bash
 # Terminal 1 — backend
@@ -127,8 +156,11 @@ Open http://localhost:3000
 
 | Problem | Fix |
 |---------|-----|
-| Menu empty / API errors | Check `NEXT_PUBLIC_API_URL` and `CORS_ORIGINS` |
-| CORS error in browser | Add exact frontend URLs to `CORS_ORIGINS` on Railway, or redeploy frontend (uses `/api` proxy) |
-| WhatsApp wrong number | Admin → Settings + `NEXT_PUBLIC_WHATSAPP_NUMBER` |
-| Images not loading | Create Supabase buckets; check bucket is public |
-| Order "menu not available" | Clear cart; re-add items after menu import |
+| Free tier “waking up” | First request after sleep is slow; hit `/health` and wait |
+| Backend deploy failed / health timeout | Check `DATABASE_URL` (`asyncpg` + `ssl=require`). First menu seed can take a few minutes |
+| Admin login fails | Use `ADMIN_PASSWORD_B64`; hash from `scripts/hash_password.py` |
+| Menu empty / API errors | Confirm API is awake; check `API_INTERNAL_URL` / `NEXT_PUBLIC_API_URL` |
+| CORS error | Add exact frontend origin to `CORS_ORIGINS`, redeploy API |
+| Frontend still points at old API | Change `NEXT_PUBLIC_*`, then **Clear build cache & deploy** |
+| Images broken | Create Supabase buckets with public read |
+| `$` breaks bcrypt in env | Use `ADMIN_PASSWORD_B64` only |

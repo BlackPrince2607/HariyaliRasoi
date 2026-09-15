@@ -33,7 +33,7 @@ export function FeaturedDishes({ items }: FeaturedDishesProps) {
         </div>
 
         <div className="mt-10">
-          <MenuGrid items={items.slice(0, 6)} />
+          <MenuGrid items={items} />
         </div>
       </div>
     </section>

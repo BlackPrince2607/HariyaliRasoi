@@ -12,10 +12,19 @@ interface DishImageProps {
   sizes?: string;
   /** Emoji/text to show when no image is available (defaults to leaf silhouette). */
   fallbackEmoji?: string;
+  /** Prefer fill layout (parent must be position:relative with size). Default true. */
+  fill?: boolean;
 }
 
 /** Image with a branded leaf-silhouette placeholder when missing or failed to load. */
-export function DishImage({ src, alt, className, sizes, fallbackEmoji }: DishImageProps) {
+export function DishImage({
+  src,
+  alt,
+  className,
+  sizes,
+  fallbackEmoji,
+  fill = true,
+}: DishImageProps) {
   const [errored, setErrored] = useState(false);
   const showFallback = !src || errored;
 
@@ -36,13 +45,32 @@ export function DishImage({ src, alt, className, sizes, fallbackEmoji }: DishIma
     );
   }
 
+  const isExternalCdn =
+    src.includes("media-assets.swiggy.com") || src.includes("res.cloudinary.com");
+
+  if (fill) {
+    return (
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        unoptimized={isExternalCdn}
+        sizes={sizes ?? "(max-width: 768px) 100vw, 33vw"}
+        className={cn("object-cover", className)}
+        onError={() => setErrored(true)}
+      />
+    );
+  }
+
   return (
     <Image
       src={src}
       alt={alt}
-      fill
+      width={800}
+      height={800}
+      unoptimized={isExternalCdn}
       sizes={sizes ?? "(max-width: 768px) 100vw, 33vw"}
-      className={cn("object-cover", className)}
+      className={cn("h-full w-full object-cover", className)}
       onError={() => setErrored(true)}
     />
   );

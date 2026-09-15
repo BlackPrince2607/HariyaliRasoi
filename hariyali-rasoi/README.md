@@ -90,12 +90,12 @@ docker compose up
 
 ## Deployment
 
-See **[DEPLOY.md](./DEPLOY.md)** for full production setup (Vercel + Railway + Supabase + GoDaddy DNS).
+See **[DEPLOY.md](./DEPLOY.md)** for full production setup (Render + Supabase + DNS).
 
 | Service | Platform |
 |---------|----------|
-| Frontend | Vercel — set `NEXT_PUBLIC_API_URL` |
-| Backend | Railway or Render — set all backend env vars |
+| Frontend | Render Web Service — root `hariyali-rasoi/frontend` (Docker) |
+| Backend | Render Web Service — root `hariyali-rasoi/backend` (Docker) |
 | Database | Supabase PostgreSQL |
 
 ## Project Structure

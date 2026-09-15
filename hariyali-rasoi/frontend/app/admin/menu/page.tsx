@@ -7,6 +7,7 @@ import {
   createMenuItem,
   updateMenuItem,
   deleteMenuItem,
+  deleteMenuImage,
   toggleMenuItem,
   toggleOutOfStock,
   toggleTodaysSpecial,
@@ -14,7 +15,7 @@ import {
 import type { MenuItem, Category } from "@/lib/api/types";
 import { MenuItemForm } from "@/components/admin/MenuItemForm";
 import { MenuBulkImport } from "@/components/admin/MenuBulkImport";
-import { ImageUploader } from "@/components/admin/ImageUploader";
+import { MenuItemImages } from "@/components/admin/MenuItemImages";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
@@ -81,6 +82,17 @@ export default function AdminMenuPage() {
     }
   };
 
+  const handleDeleteImage = async (itemId: string, imageId: string) => {
+    if (!confirm("Remove this image?")) return;
+    try {
+      await deleteMenuImage(itemId, imageId);
+      toast.success("Image removed");
+      refresh();
+    } catch {
+      toast.error("Failed to remove image");
+    }
+  };
+
   return (
     <div>
       <div className="flex items-center justify-between">
@@ -118,8 +130,14 @@ export default function AdminMenuPage() {
         {filteredItems.map((item) => (
           <div
             key={item.id}
-            className="flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-brand-gold/35 bg-brand-surface p-4 shadow-[var(--shadow-card)]"
+            className="flex flex-wrap items-start gap-4 rounded-2xl border border-brand-gold/35 bg-brand-surface p-4 shadow-[var(--shadow-card)]"
           >
+            <MenuItemImages
+              images={item.images}
+              itemName={item.name}
+              onUpload={(url) => handleAddImage(item.id, url)}
+              onDelete={(imageId) => handleDeleteImage(item.id, imageId)}
+            />
             <div className="min-w-0 flex-1">
               <p className="font-medium text-brand-charcoal">{item.name}</p>
               <p className="text-sm font-semibold text-brand-leaf">{formatPrice(Number(item.price))}</p>
@@ -133,8 +151,7 @@ export default function AdminMenuPage() {
                 {item.is_bestseller && <Badge variant="secondary">Bestseller</Badge>}
               </div>
             </div>
-            <div className="flex flex-wrap gap-2">
-              <ImageUploader onUpload={(url) => handleAddImage(item.id, url)} />
+            <div className="flex w-full flex-wrap gap-2 sm:w-auto sm:justify-end">
               <Button
                 size="sm"
                 variant="outline"

@@ -8,6 +8,8 @@
     "scrape": "node scraper.js",
     "scrape:swiggy": "node scraper-swiggy.js",
     "merge:swiggy": "node convert-swiggy-to-seed.mjs",
+    "fix:images": "node fix-menu-images.mjs",
+    "dedupe:menu": "node dedupe-menu.mjs",
     "merge:zomato": "node convert-to-seed.mjs",
     "postinstall": "npx playwright install chromium"
   },

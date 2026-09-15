@@ -23,6 +23,8 @@ const allowedDevOrigins = [
 ];
 
 const nextConfig: NextConfig = {
+  // Required for Render/Docker standalone image
+  output: "standalone",
   allowedDevOrigins,
   async rewrites() {
     return [

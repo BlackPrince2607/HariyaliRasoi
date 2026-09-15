@@ -61,7 +61,7 @@ export default function MenuPage() {
         <SectionHeader
           eyebrow="Full menu"
           title="Our menu"
-          subtitle="121 homestyle dishes across breakfast, lunch, snacks & more — all 100% vegetarian."
+          subtitle="Homestyle dishes across breakfast, lunch, snacks & more — all 100% vegetarian."
           align="left"
         />
 

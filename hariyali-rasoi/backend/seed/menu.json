@@ -183,7 +183,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/fbc86333c11b037f6ede8e835ed715f0"
     },
     {
       "name": "Atta Ajwain Kachori with Aloo Sabzi (5 pcs)",
@@ -213,7 +214,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/fb71af0aa1d0cbcb968dccbc224dd464"
     },
     {
       "name": "Kanak Poha with Chutney",
@@ -240,7 +242,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/e705a5816f50dbbf1240655c81ed420e"
     },
     {
       "name": "Upma with Sambar & Chutney",
@@ -327,7 +330,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 8
+      "display_order": 8,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/90c1f689c15ec29d67f0eb5fb888ba2b"
     },
     {
       "name": "Plain Dosa with Sambar & Chutney",
@@ -355,7 +359,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 9
+      "display_order": 9,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/2b5e9d84dd9f2ecd9d87aff6ae41cc83"
     },
     {
       "name": "Masala Dosa with Sambar & Chutney",
@@ -381,9 +386,10 @@
       "is_out_of_stock": false,
       "is_bestseller": true,
       "is_new": false,
-      "is_todays_special": false,
+      "is_todays_special": true,
       "preparation_time": 30,
-      "display_order": 10
+      "display_order": 10,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0ced06b7276d9303882059c385e0c272"
     },
     {
       "name": "Onion Dosa",
@@ -435,7 +441,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 12
+      "display_order": 12,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/88e209fb5362d89f2d3c86da56c0cd2d"
     },
     {
       "name": "Masala Cheese Sandwich Dosa",
@@ -462,7 +469,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 13
+      "display_order": 13,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/4e5cf3b371e1021371202a1ada11b603"
     },
     {
       "name": "Onion Uttapam",
@@ -515,7 +523,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 15
+      "display_order": 15,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c9f18fba63f91d41d4794ccda9817807"
     },
     {
       "name": "Onion Cheese Uttapam",
@@ -542,7 +551,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 16
+      "display_order": 16,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c9f18fba63f91d41d4794ccda9817807"
     },
     {
       "name": "Mixed Cheese Uttapam",
@@ -569,7 +579,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 17
+      "display_order": 17,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c9f18fba63f91d41d4794ccda9817807"
     },
     {
       "name": "Appam with Chutney (8 pcs)",
@@ -687,7 +698,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 21,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/ea1d4f40dcbf25ce014ca83bce8e3d5c"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0be30293d5e6531b0425360f69b5f974"
     },
     {
       "name": "Masala Cheese Dosa",
@@ -714,7 +725,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 22,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0ced06b7276d9303882059c385e0c272"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/4e5cf3b371e1021371202a1ada11b603"
     },
     {
       "name": "Paneer Stuffed Moong Dal Chilla (2 pcs)",
@@ -744,7 +755,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 23
+      "display_order": 23,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/ea1d4f40dcbf25ce014ca83bce8e3d5c"
     },
     {
       "name": "Dahi Puchka Chaat",
@@ -765,7 +777,7 @@
       "is_out_of_stock": false,
       "is_bestseller": true,
       "is_new": false,
-      "is_todays_special": false,
+      "is_todays_special": true,
       "preparation_time": 30,
       "display_order": 1,
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/3ee5eb334f99f9d6ade1e790db364ac0"
@@ -790,7 +802,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/e65cad51bb1c06068b9a3a808ac78d94"
     },
     {
       "name": "Corn Chaat",
@@ -812,7 +825,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/3fe6ed203788b3eb7ec86e1ceec075c4"
     },
     {
       "name": "Aloo Chaat",
@@ -834,7 +848,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/65c17f4fe41ca3a3c10f04cc2a568709"
     },
     {
       "name": "Peanut Masala",
@@ -909,7 +924,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c948a91816a164e5a7cfd11e8cdd0a62"
     },
     {
       "name": "Mix Veg Pakoda",
@@ -982,7 +998,7 @@
       "is_out_of_stock": false,
       "is_bestseller": true,
       "is_new": false,
-      "is_todays_special": false,
+      "is_todays_special": true,
       "preparation_time": 30,
       "display_order": 1,
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/4bf0789b3e77b1bf081626a4dc1661d9"
@@ -1034,7 +1050,7 @@
       "is_out_of_stock": false,
       "is_bestseller": true,
       "is_new": false,
-      "is_todays_special": false,
+      "is_todays_special": true,
       "preparation_time": 30,
       "display_order": 3,
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/cec43a2f358de4ded75fcac25119e775"
@@ -1063,7 +1079,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/cec43a2f358de4ded75fcac25119e775"
     },
     {
       "name": "Extra Cheese Vada Pav (2 pcs)",
@@ -1090,7 +1107,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/cec43a2f358de4ded75fcac25119e775"
     },
     {
       "name": "Chole Bhature (2 pcs)",
@@ -1113,7 +1131,7 @@
       "is_out_of_stock": false,
       "is_bestseller": true,
       "is_new": false,
-      "is_todays_special": false,
+      "is_todays_special": true,
       "preparation_time": 30,
       "display_order": 6,
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/4a23fc53-2ff0-4072-aea1-6cd404a69b5f_36d6db3d-043b-4c03-a87d-bfdd10854062.jpg"
@@ -1140,7 +1158,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 7
+      "display_order": 7,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/4a23fc53-2ff0-4072-aea1-6cd404a69b5f_36d6db3d-043b-4c03-a87d-bfdd10854062.jpg"
     },
     {
       "name": "Chola Kulcha (2 pcs)",
@@ -1164,7 +1183,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 8
+      "display_order": 8,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/3cb1052eddf9ca375553544449db412c"
     },
     {
       "name": "Dhokla (6 pcs)",
@@ -1214,7 +1234,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 10
+      "display_order": 10,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/f72c2f4e7481f4453f8fba1ed361796a"
     },
     {
       "name": "Vegetable Cheese Sandwich (2 pcs)",
@@ -1290,7 +1311,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/7f8245c36b6b764f056d9caedbc8663c"
     },
     {
       "name": "Vegetable Maggie Sandwich",
@@ -1361,7 +1383,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 6
+      "display_order": 6,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/84d4d47b89a9b5cec2000071ccf9231e"
     },
     {
       "name": "Bread Cheese Roll (4 pcs)",
@@ -1385,7 +1408,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 7
+      "display_order": 7,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/9507b6ed8049d11ee515c7b895815c46"
     },
     {
       "name": "Plain Rice",
@@ -1408,7 +1432,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 1,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/2521255c-5811-482d-bda8-c7c442dc74c3_307900c6-81f4-4f4c-b089-993fb5175759.jpg"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c7b1426c684bba071eee5d156d248dde"
     },
     {
       "name": "Veg Pulao",
@@ -1454,7 +1478,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 3,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/56893e9ec0cf90a3a20dbed2a25d5a16"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/d9239e6298869124ec24391682f9774b"
     },
     {
       "name": "Peas Pulao",
@@ -1520,7 +1544,7 @@
       "is_out_of_stock": false,
       "is_bestseller": true,
       "is_new": false,
-      "is_todays_special": false,
+      "is_todays_special": true,
       "preparation_time": 30,
       "display_order": 2,
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0eb8b2c0a7ed9dd68dbbf47dabc81e9e"
@@ -1545,7 +1569,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0928ac9750a019d27ba1101b50cb5a6f"
     },
     {
       "name": "Pyaz Kadhi",
@@ -1567,7 +1592,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/79f8ec849653eee57476b6625bbf1f4b"
     },
     {
       "name": "Kadhi Pakoda",
@@ -1638,7 +1664,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 2,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/b3816b88dfd34950d06d541e349acf66"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/77f787a3d809acc774866cde52062af4"
     },
     {
       "name": "Aloo Dum",
@@ -1780,7 +1806,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 8
+      "display_order": 8,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/7bc51e28e8e68879c17e9b831a14d69a"
     },
     {
       "name": "Amritsari Chole",
@@ -1804,7 +1831,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 9,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/8f869da21de611de174a5fe8700a4f78"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/333cfe2494097561933b7cc637fa602c"
     },
     {
       "name": "Rajma Masala",
@@ -1897,7 +1924,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/55c71aca23b957a15dd62c2093d4c5ff"
     },
     {
       "name": "Paneer Do Pyaaza",
@@ -1919,7 +1947,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/32a4f94c48fce134bb1e804128934152"
     },
     {
       "name": "Palak Paneer Lasuni",
@@ -1966,7 +1995,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 1,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/ce4930497a62ac1985a6438915907f31"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/fbd17f2ef0dec52ee5df4ea1fa2e1a39"
     },
     {
       "name": "Mattar Mushroom Masala",
@@ -1989,7 +2018,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/2f423b277d2ecfad9bbe3cdd928b56ee"
     },
     {
       "name": "Soya Chaap Masala (Gravy)",
@@ -2039,7 +2069,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/b8a27f137fdfb9cd438b5f76a531b190"
     },
     {
       "name": "Vegetable Kofta (4 pcs)",
@@ -2109,7 +2140,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 1,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/1/6/556d52ed-bdec-4ee0-8de6-09773d6c988e_63a62fc7-90d9-472e-af3e-a332f0f2e1e3.jpg"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/625fce66f9432e991132513733ef3c8c"
     },
     {
       "name": "Rajasthani Gatte Ki Sabzi",
@@ -2132,7 +2163,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/1/6/556d52ed-bdec-4ee0-8de6-09773d6c988e_63a62fc7-90d9-472e-af3e-a332f0f2e1e3.jpg"
     },
     {
       "name": "Sarson Ka Saag",
@@ -2249,7 +2281,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 4,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/2/19/7bc4987a-792e-4510-9cba-deefc00fc7d3_1ea67b48-1a7d-40d3-b10e-d35685009280.JPG"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/29/ffdd1509-78b9-481f-acf1-9d78ba838c2a_ba4acc89-1e92-4897-9a1b-59d2ef77fc29.jpg"
     },
     {
       "name": "Missi Roti",
@@ -2317,7 +2349,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 7
+      "display_order": 7,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/9e5de258497de39a399ac31ca1f852b8"
     },
     {
       "name": "Puran Poli (4 pcs)",
@@ -2365,7 +2398,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 9
+      "display_order": 9,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/29/ffdd1509-78b9-481f-acf1-9d78ba838c2a_ba4acc89-1e92-4897-9a1b-59d2ef77fc29.jpg"
     },
     {
       "name": "Aloo Paratha",
@@ -2410,7 +2444,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 11
+      "display_order": 11,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/dfaae6a3544607f11331b271000f7b32"
     },
     {
       "name": "Onion Paratha",
@@ -2478,7 +2513,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 14
+      "display_order": 14,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/d4a2a633ae477baa93a95924ee6acada"
     },
     {
       "name": "Chilli Garlic Onion Paratha",
@@ -2525,7 +2561,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 16
+      "display_order": 16,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/1048558569768c34eb67ad9d2c02a85b"
     },
     {
       "name": "Mattar Paratha",
@@ -2547,7 +2584,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 17
+      "display_order": 17,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/1/29/ffdd1509-78b9-481f-acf1-9d78ba838c2a_ba4acc89-1e92-4897-9a1b-59d2ef77fc29.jpg"
     },
     {
       "name": "Lachha Paratha",
@@ -2593,7 +2631,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 19
+      "display_order": 19,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/b93c13555741ca18accd08248252a2b6"
     },
     {
       "name": "Makkai Roti & Sarson Ka Saag (2 pcs)",
@@ -2649,7 +2688,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/b3816b88dfd34950d06d541e349acf66"
     },
     {
       "name": "Rajma Chawal",
@@ -2672,7 +2712,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/2521255c-5811-482d-bda8-c7c442dc74c3_307900c6-81f4-4f4c-b089-993fb5175759.jpg"
     },
     {
       "name": "Lachha Paratha & Kadhai Paneer",
@@ -2698,7 +2739,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/ce4930497a62ac1985a6438915907f31"
     },
     {
       "name": "Lachha Paratha & Amritsari Chole",
@@ -2724,7 +2766,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/8f869da21de611de174a5fe8700a4f78"
     },
     {
       "name": "Dal Makhani & Jeera Rice",
@@ -2749,7 +2792,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 6
+      "display_order": 6,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/56893e9ec0cf90a3a20dbed2a25d5a16"
     },
     {
       "name": "Chole & Jeera Rice",
@@ -2773,7 +2817,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 7
+      "display_order": 7,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/4a23fc53-2ff0-4072-aea1-6cd404a69b5f_36d6db3d-043b-4c03-a87d-bfdd10854062.jpg"
     },
     {
       "name": "Kadhi & Peas Pulao",
@@ -2797,7 +2842,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 8
+      "display_order": 8,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/a61685d0bd33cb0b5a4321e153b03f71"
     },
     {
       "name": "Mini Thali (Rice + 2 Roti + Dal Fry + Veg Sabzi + Salad)",
@@ -2858,7 +2904,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 2
+      "display_order": 2,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/2/19/7bc4987a-792e-4510-9cba-deefc00fc7d3_1ea67b48-1a7d-40d3-b10e-d35685009280.JPG"
     },
     {
       "name": "Veg Executive Thali (2 Ghee Roti + Jeera Rice + Dal Fry + Paneer Sabzi + Veg Sabzi + Curd + Salad + Fryums)",
@@ -2925,7 +2972,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 4
+      "display_order": 4,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/2/19/7bc4987a-792e-4510-9cba-deefc00fc7d3_1ea67b48-1a7d-40d3-b10e-d35685009280.JPG"
     },
     {
       "name": "Roti Wali Thali (4 Ghee Roti + Dal Fry + Veg Sabzi + Salad + Fryums)",
@@ -2956,7 +3004,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c15ac348c09d9cbec4f328be10cb7c35"
     },
     {
       "name": "Hariyali Rasoi Special Thali (Veg Pulao + 2 Plain Paratha + Dal Fry + Paneer Sabzi + Veg Sabzi + Raita + Salad + Papad + Pickle)",
@@ -2993,7 +3042,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 6
+      "display_order": 6,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/128287d2b104bb8162451cd00e7e2859"
     },
     {
       "name": "Missi Roti Thali (2 Missi Roti + Kadhi + Aloo Jeera + Sweet + Pickle + Salad)",
@@ -3023,7 +3073,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 7
+      "display_order": 7,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/2/19/7bc4987a-792e-4510-9cba-deefc00fc7d3_1ea67b48-1a7d-40d3-b10e-d35685009280.JPG"
     },
     {
       "name": "Sada Shikanji",
@@ -3046,7 +3097,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 1
+      "display_order": 1,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/27e1acf26cd479fa10eb210dc7d57977"
     },
     {
       "name": "Salted Lime Soda",
@@ -3095,7 +3147,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 3
+      "display_order": 3,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/1/18/675d9eb2-d1ab-4ff6-984c-d4b92377df6c_e932cb3c-c5e8-4e5d-b161-65a2064e225b.JPG"
     },
     {
       "name": "Butter Milk",
@@ -3145,7 +3198,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 5
+      "display_order": 5,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/27e1acf26cd479fa10eb210dc7d57977"
     },
     {
       "name": "Kheer [300 Ml]",
@@ -3183,7 +3237,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 123
+      "display_order": 123,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/79189f14-ad9b-4c4d-903d-7ce4b08b66f7_7a53fdf9-96a7-459c-9a07-d49e60734958.jpg"
     },
     {
       "name": "Gobi Paratha",
@@ -3244,7 +3299,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 126
+      "display_order": 126,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/625fce66f9432e991132513733ef3c8c"
     },
     {
       "name": "Ragi Roti [2 Pcs]",
@@ -3263,7 +3319,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 127
+      "display_order": 127,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/2fd173745f329bd1153c781303ccaec6"
     },
     {
       "name": "Satoo Paratha",
@@ -3366,7 +3423,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 132,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/79de892db3b26d75d9668d7cb59d7d13"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/8a2d1638de670ece66fb8ff651efb183"
     },
     {
       "name": "Paneer Chili",
@@ -3487,7 +3544,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 138
+      "display_order": 138,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/27e1acf26cd479fa10eb210dc7d57977"
     },
     {
       "name": "Masala Sattu Drink With Onion",
@@ -3714,7 +3772,7 @@
       "is_todays_special": false,
       "preparation_time": 30,
       "display_order": 149,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/74666e6cfb026b63b85545a7b295aec2"
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0b943ff3fb4cc1931d03f76bf760a52b"
     },
     {
       "name": "Muttar Paneer",
@@ -3837,26 +3895,6 @@
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/e3aca60333f6cc6b306d5c0640d0f4e7"
     },
     {
-      "name": "Rajasthani Kadhi",
-      "slug": "rajasthani-kadhi",
-      "category_slug": "veg-curries",
-      "description": "Kadhi is a tasty and aromatic gravy that holds some unique combinations of flavors which include spicy, sour, and tangy as well.Kadhi is usually paired with hot steamed basmati rice, bajra ki roti, khichdi, pulao, jeera rice, etc.",
-      "price": 210,
-      "tags": [
-        "rajasthani",
-        "kadhi"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 156,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/79f8ec849653eee57476b6625bbf1f4b"
-    },
-    {
       "name": "Masala Papad",
       "slug": "masala-papad",
       "category_slug": "veg-curries",
@@ -3913,7 +3951,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 159
+      "display_order": 159,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/77f787a3d809acc774866cde52062af4"
     },
     {
       "name": "Healthy Curd Rice",
@@ -3933,7 +3972,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 160
+      "display_order": 160,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/69ad35179cbad5b6e3352a6e43687b9f"
     },
     {
       "name": "Onion Salad",
@@ -3952,27 +3992,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 161
-    },
-    {
-      "name": "Dahi Valle [4 Pieces]",
-      "slug": "dahi-valle-4-pieces",
-      "category_slug": "combos",
-      "description": "From Hariyali Rasoi on Swiggy (Combos).",
-      "price": 160,
-      "tags": [
-        "dahi",
-        "valle"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 162,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/f72c2f4e7481f4453f8fba1ed361796a"
+      "display_order": 161,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/37fdaf24b3965940d16391ac2e8b0266"
     },
     {
       "name": "Paneer Stuffed Besan Chilla With Green Chutney (2pc)",
@@ -4020,26 +4041,6 @@
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/8f1bd7551fa8de5497acae86d5f44148"
     },
     {
-      "name": "Chole Kulcha (2pc)",
-      "slug": "chole-kulcha-2pc",
-      "category_slug": "combos",
-      "description": "Chole Kulche An Old Delhi Delicacy Cherished by Street Food Lovers, From school kids to office goers, everyone seems to enjoy this masaledaar street food snack that is more like a meal in itself. This combination of boiled chickpeas (chole) and a soft white flour bread (kulcha) is served garnished with chopped onions, juicy tomatoes, powdered spices and a generous squeeze of lime.",
-      "price": 190,
-      "tags": [
-        "chole",
-        "kulcha"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 165,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/3cb1052eddf9ca375553544449db412c"
-    },
-    {
       "name": "Cheese Moonglet With Greem Chutney",
       "slug": "cheese-moonglet-with-greem-chutney",
       "category_slug": "combos",
@@ -4059,7 +4060,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 166
+      "display_order": 166,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/0be30293d5e6531b0425360f69b5f974"
     },
     {
       "name": "Fried Papad",
@@ -4099,26 +4101,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 168
-    },
-    {
-      "name": "Maggie Sandwhich (2pcs)",
-      "slug": "maggie-sandwhich-2pcs",
-      "category_slug": "combos",
-      "description": "A Maggi sandwich is a delicious, crispy bread filled with spicy, flavorful Maggi noodles, creating a savory fusion treat.",
-      "price": 170,
-      "tags": [
-        "maggie",
-        "sandwhich"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 169
+      "display_order": 168,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/b93c13555741ca18accd08248252a2b6"
     },
     {
       "name": "Roasted Salted Makhana",
@@ -4138,7 +4122,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 170
+      "display_order": 170,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/509f7b11e312b350a29abe3d236d95a7"
     },
     {
       "name": "Sabudana Khichdi With Curd",
@@ -4209,26 +4194,6 @@
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/128287d2b104bb8162451cd00e7e2859"
     },
     {
-      "name": "Roti Wali Tali",
-      "slug": "roti-wali-tali",
-      "category_slug": "thali",
-      "description": "(4 pcs ghee roti + Yellow dal +Seasonal vegetable(as per availability)+Salad +Pickle+Fryums",
-      "price": 180,
-      "tags": [
-        "roti",
-        "wali",
-        "tali"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 174
-    },
-    {
       "name": "Royal Thali",
       "slug": "royal-thali",
       "category_slug": "thali",
@@ -4247,30 +4212,6 @@
       "preparation_time": 30,
       "display_order": 175,
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/2/2/a763995d-f2bc-4035-b8a2-f2c1c26fe06f_18bc3d62-c016-4afa-a44e-2683506a4ba7.jpg"
-    },
-    {
-      "name": "Moong Dal Bhajia With Green Chatni",
-      "slug": "moong-dal-bhajia-with-green-chatni",
-      "category_slug": "evening-snacks-chaat",
-      "description": "From Hariyali Rasoi on Swiggy (Evening Snacks & Chaat).",
-      "price": 160,
-      "tags": [
-        "moong",
-        "dal",
-        "bhajia",
-        "with",
-        "green",
-        "chatni"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 176,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/c948a91816a164e5a7cfd11e8cdd0a62"
     },
     {
       "name": "Aloo Bonda With Chutney 2pc",
@@ -4316,25 +4257,6 @@
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/56652380cbf20e014598b08ff42cacc0"
     },
     {
-      "name": "Bread Chop(4 Pcs)",
-      "slug": "bread-chop-4-pcs",
-      "category_slug": "evening-snacks-chaat",
-      "description": "From Hariyali Rasoi on Swiggy (Evening Snacks & Chaat).",
-      "price": 145,
-      "tags": [
-        "bread",
-        "chop"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 179
-    },
-    {
       "name": "Kolkata's Dal Bhaat + Aloo Bhaja + Salad + Raita + Papad",
       "slug": "kolkata-s-dal-bhaat-aloo-bhaja-salad-raita-papad",
       "category_slug": "combos",
@@ -4357,7 +4279,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 180
+      "display_order": 180,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/40f47901902b7c84fd10238cb1aec307"
     },
     {
       "name": "Wheat Poori Combo",
@@ -4377,29 +4300,8 @@
       "is_new": false,
       "is_todays_special": false,
       "preparation_time": 30,
-      "display_order": 181
-    },
-    {
-      "name": "Chole Rice With Onion & Pickle",
-      "slug": "chole-rice-with-onion-pickle",
-      "category_slug": "combos",
-      "description": "From Hariyali Rasoi on Swiggy (Combos).",
-      "price": 250,
-      "tags": [
-        "chole",
-        "rice",
-        "with",
-        "onion",
-        "pickle"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 182
+      "display_order": 181,
+      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/FOOD_CATALOG/IMAGES/CMS/2026/5/24/4a23fc53-2ff0-4072-aea1-6cd404a69b5f_36d6db3d-043b-4c03-a87d-bfdd10854062.jpg"
     },
     {
       "name": "Plain Dosa (medium)",
@@ -4443,26 +4345,6 @@
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/e705a5816f50dbbf1240655c81ed420e"
     },
     {
-      "name": "Mini Idli",
-      "slug": "mini-idli",
-      "category_slug": "breakfast",
-      "description": "From Hariyali Rasoi on Swiggy (Breakfast).",
-      "price": 150,
-      "tags": [
-        "mini",
-        "idli"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 185,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/90c1f689c15ec29d67f0eb5fb888ba2b"
-    },
-    {
       "name": "Aata Ajwain Kachori",
       "slug": "aata-ajwain-kachori",
       "category_slug": "breakfast",
@@ -4482,68 +4364,6 @@
       "preparation_time": 30,
       "display_order": 186,
       "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/fb71af0aa1d0cbcb968dccbc224dd464"
-    },
-    {
-      "name": "Mattar Kachori With Sabji &pickle(5pc)",
-      "slug": "mattar-kachori-with-sabji-pickle-5pc",
-      "category_slug": "breakfast",
-      "description": "From Hariyali Rasoi on Swiggy (Breakfast).",
-      "price": 120,
-      "tags": [
-        "mattar",
-        "kachori",
-        "with",
-        "sabji",
-        "pickle"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 187
-    },
-    {
-      "name": "Aloo Chat",
-      "slug": "aloo-chat",
-      "category_slug": "evening-snacks-chaat",
-      "description": "From Hariyali Rasoi on Swiggy (Evening Snacks & Chaat).",
-      "price": 150,
-      "tags": [
-        "aloo",
-        "chat"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 188,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/732075c27f8efe15a8b89796b204e295"
-    },
-    {
-      "name": "Corn Chat",
-      "slug": "corn-chat",
-      "category_slug": "evening-snacks-chaat",
-      "description": "From Hariyali Rasoi on Swiggy (Evening Snacks & Chaat).",
-      "price": 125,
-      "tags": [
-        "corn",
-        "chat"
-      ],
-      "is_veg": true,
-      "is_available": true,
-      "is_out_of_stock": false,
-      "is_bestseller": false,
-      "is_new": false,
-      "is_todays_special": false,
-      "preparation_time": 30,
-      "display_order": 189,
-      "image_url": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fit/3fe6ed203788b3eb7ec86e1ceec075c4"
     },
     {
       "name": "Papri Chat",
