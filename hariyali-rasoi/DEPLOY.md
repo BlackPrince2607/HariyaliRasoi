@@ -102,7 +102,7 @@ Set **`ADMIN_PASSWORD_B64`** and leave `ADMIN_PASSWORD` empty.
 | Variable | Value |
 |----------|-------|
 | `NEXT_PUBLIC_API_URL` | `https://hariyali-rasoi-api.onrender.com` |
-| `API_INTERNAL_URL` | Same as above (Next.js `/api` rewrite target) |
+| `API_INTERNAL_URL` | Same as above (runtime `/api` proxy target — required on Render) |
 | `NEXT_PUBLIC_APP_URL` | `https://hariyali-rasoi-web.onrender.com` |
 | `NEXT_PUBLIC_WHATSAPP_NUMBER` | `917439890089` |
 

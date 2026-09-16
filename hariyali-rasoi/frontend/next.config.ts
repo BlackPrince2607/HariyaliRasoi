@@ -1,10 +1,5 @@
 import type { NextConfig } from "next";
 
-const apiInternal =
-  process.env.API_INTERNAL_URL ||
-  process.env.NEXT_PUBLIC_API_URL?.replace("localhost", "127.0.0.1") ||
-  "http://127.0.0.1:8000";
-
 // Allow HMR, fonts, and dev assets when opening http://192.168.x.x:3000 on phone/LAN.
 // Wildcards use the same matcher as CSRF origin checks (dot-separated segments).
 const allowedDevOrigins = [
@@ -26,14 +21,8 @@ const nextConfig: NextConfig = {
   // Required for Render/Docker standalone image
   output: "standalone",
   allowedDevOrigins,
-  async rewrites() {
-    return [
-      {
-        source: "/api/:path*",
-        destination: `${apiInternal}/api/:path*`,
-      },
-    ];
-  },
+  // /api/* is proxied at runtime by app/api/[...path]/route.ts
+  // (build-time rewrites baked localhost and broke the menu on Render)
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "**.supabase.co" },

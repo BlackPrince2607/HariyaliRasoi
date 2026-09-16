@@ -2,7 +2,8 @@ import axios from "axios";
 import { getApiBaseUrl } from "./base-url";
 
 const api = axios.create({
-  timeout: 30000,
+  // Render free-tier API cold starts often exceed 30s
+  timeout: 90000,
 });
 
 api.interceptors.request.use((config) => {
