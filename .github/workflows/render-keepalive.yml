@@ -1,0 +1,45 @@
+# Keep Render free-tier services awake during restaurant hours (IST).
+# Default window: 07:00–23:59 Asia/Kolkata (skips midnight–6:59).
+#
+# Override URLs via repo Secrets if you use custom domains:
+#   RENDER_API_URL  e.g. https://api.hariyalirasoi.com/health
+#   RENDER_WEB_URL  e.g. https://hariyalirasoi.com/
+
+name: Render keep-awake (IST hours)
+
+on:
+  schedule:
+    # Every 12 minutes — under Render's ~15 min idle sleep
+    - cron: "*/12 * * * *"
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping API + web if within IST business hours
+        env:
+          API_URL: ${{ secrets.RENDER_API_URL }}
+          WEB_URL: ${{ secrets.RENDER_WEB_URL }}
+        run: |
+          set -euo pipefail
+          HOUR_IST=$(TZ=Asia/Kolkata date +%H)
+          NOW_IST=$(TZ=Asia/Kolkata date '+%Y-%m-%d %H:%M %Z')
+          echo "Current time: $NOW_IST (hour=$HOUR_IST)"
+
+          # 7 AM through 11 PM IST inclusive (= until midnight)
+          if [ "$HOUR_IST" -lt 7 ]; then
+            echo "Outside keep-awake window — skipping"
+            exit 0
+          fi
+
+          API_URL="${API_URL:-https://hariyali-rasoi-api.onrender.com/health}"
+          WEB_URL="${WEB_URL:-https://hariyali-rasoi-web.onrender.com/}"
+
+          echo "Pinging API: $API_URL"
+          curl -fsS --max-time 90 "$API_URL" || echo "API ping failed (may still be waking)"
+
+          echo "Pinging web: $WEB_URL"
+          curl -fsS --max-time 90 -o /dev/null "$WEB_URL" || echo "Web ping failed (may still be waking)"
+
+          echo "Done"

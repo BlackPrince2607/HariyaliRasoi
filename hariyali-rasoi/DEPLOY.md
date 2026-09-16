@@ -14,6 +14,16 @@ Database + file storage → Supabase
 
 Free web services **sleep after ~15 minutes** of idle traffic; the first request can take 30–60s (cold start).
 
+### Keep-awake during open hours (optional)
+
+A GitHub Action (`.github/workflows/render-keepalive.yml`) pings the API + web every 12 minutes from **7:00 AM – midnight IST**, so free-tier instances stay warm while you are open.
+
+- Runs automatically on `main` after you push the workflow
+- You can trigger it manually: GitHub → **Actions** → **Render keep-awake** → **Run workflow**
+- Optional repo Secrets if you use custom domains: `RENDER_API_URL`, `RENDER_WEB_URL`
+
+Outside those hours the services can sleep again (saves free-tier quota). For always-on, upgrade Render to a paid plan.
+
 ---
 
 ## Option A — Blueprint (recommended)
